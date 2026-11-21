@@ -1,0 +1,415 @@
+{
+  "R01": {
+    "source_id": "R01",
+    "title": "Original local family-selection outline (public counterpart linked)",
+    "url": "local:../Supplementary_S2_Family_Representatives.docx",
+    "locator": "Original outline, pp. 1–10, for the organization and R1–R5. The linked public S2 reports the resulting protocol and evidence.",
+    "access_date": "2026-10-13"
+  },
+  "R02": {
+    "source_id": "R02",
+    "title": "Original local 20-resource panel (public counterpart linked)",
+    "url": "local:../../s1/Supplementary_S1_Resource_Screening.docx",
+    "locator": "Original panel table 2 supplies the 20 IDs and five families. The linked public S1 reports that selection.",
+    "access_date": "2026-10-13"
+  },
+  "M01": {
+    "source_id": "M01",
+    "title": "Lahdelma and Salminen (2001), SMAA-2",
+    "url": "https://pubsonline.informs.org/doi/10.1287/opre.49.3.444.11220",
+    "locator": "Rank acceptability and preference uncertainty; the particular score model is study-defined",
+    "access_date": "2026-10-13"
+  },
+  "M02": {
+    "source_id": "M02",
+    "title": "NumPy Generator.dirichlet",
+    "url": "https://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.dirichlet.html",
+    "locator": "Dirichlet sampling; direct normalized-Gamma construction",
+    "access_date": "2026-10-13"
+  },
+  "M03": {
+    "source_id": "M03",
+    "title": "Kaggle Python environment",
+    "url": "https://github.com/Kaggle/docker-python",
+    "locator": "Python notebook environment; Kaggle-service execution is not claimed",
+    "access_date": "2026-10-13"
+  },
+  "M04": {
+    "source_id": "M04",
+    "title": "SKOS Reference",
+    "url": "https://www.w3.org/TR/skos-reference/",
+    "locator": "Concept labels, semantic relations, documentation and mappings",
+    "access_date": "2026-10-13"
+  },
+  "M05": {
+    "source_id": "M05",
+    "title": "OWL 2 Primer",
+    "url": "https://www.w3.org/TR/owl2-primer/",
+    "locator": "Classes, restrictions, properties and logical interpretation",
+    "access_date": "2026-10-13"
+  },
+  "M06": {
+    "source_id": "M06",
+    "title": "KGTK data model",
+    "url": "https://kgtk.readthedocs.io/en/latest/data_model/",
+    "locator": "Native distinctions must survive the common graph adapter",
+    "access_date": "2026-10-13"
+  },
+  "D01": {
+    "source_id": "D01",
+    "title": "OCLC DDC 22 Summaries (2003)",
+    "url": "https://www.oclc.org/content/dam/oclc/dewey/resources/summaries/deweysummaries.pdf",
+    "locator": "PDF pages 3–6: introduction; pages 9–20: the three-level summaries; no full schedules/tables/index",
+    "access_date": "2026-10-13"
+  },
+  "D02": {
+    "source_id": "D02",
+    "title": "Library of Congress free LCC schedules",
+    "url": "https://www.loc.gov/aba/publications/FreeLCC/freelcc.html",
+    "locator": "May 2024 schedule texts; the subscription service is outside the assessed profile",
+    "access_date": "2026-10-13"
+  },
+  "D03": {
+    "source_id": "D03",
+    "title": "LCC Q schedule (May 2024)",
+    "url": "https://www.loc.gov/aba/publications/FreeLCC/LCC_Q2024TEXT.pdf",
+    "locator": "Q175 social-aspect scope, QA76.76.W56 redirect, QL514.8815 Table Q3, QL69 Table Q6",
+    "access_date": "2026-10-13"
+  },
+  "D04": {
+    "source_id": "D04",
+    "title": "UDC Summary export specification",
+    "url": "https://udcsummary.info/exports.htm",
+    "locator": "Complete text export includes notes and examples; request-based acquisition is not claimed completed",
+    "access_date": "2026-10-13"
+  },
+  "D05": {
+    "source_id": "D05",
+    "title": "UDC notation",
+    "url": "https://udcc.org/index.php/site/page?view=about_notation",
+    "locator": "Syntactically expressive notation; published polar-bear/metabolism/time construction",
+    "access_date": "2026-10-13"
+  },
+  "D06": {
+    "source_id": "D06",
+    "title": "UDC Summary",
+    "url": "https://udcsummary.info/about.htm",
+    "locator": "Main, common auxiliary and special auxiliary numbers; MRF 2011 / August 2012 identification, not a current-full-MRF claim",
+    "access_date": "2026-10-13"
+  },
+  "D07": {
+    "source_id": "D07",
+    "title": "UDC structure and tables",
+    "url": "https://udcc.org/index.php/site/page?view=about_structure",
+    "locator": "Combination signs, auxiliaries and reference functions",
+    "access_date": "2026-10-13"
+  },
+  "D08": {
+    "source_id": "D08",
+    "title": "OpenAlex topic model",
+    "url": "https://help.openalex.org/data/topics/",
+    "locator": "Documentation inspected 13 October 2026: IDs, description, keywords, hierarchy, works_api_url; siblings are hierarchical peers",
+    "access_date": "2026-10-13"
+  },
+  "V01": {
+    "source_id": "V01",
+    "title": "OCLC FAST Quick Start Guide (October 2024)",
+    "url": "https://www.oclc.org/content/dam/oclc/fast/FAST-quick-start-guide-2022.pdf",
+    "locator": "Printed pages 2 and 11–16: nine facets, native record comparison and within-topical precoordination",
+    "access_date": "2026-10-13"
+  },
+  "V02": {
+    "source_id": "V02",
+    "title": "FAST download and update records",
+    "url": "https://www.oclc.org/research/areas/data-science/fast/download.html",
+    "locator": "Authority distributions and change records; not all records are assumed to have a note",
+    "access_date": "2026-10-13"
+  },
+  "V03": {
+    "source_id": "V03",
+    "title": "LCSH training, Module 2.1",
+    "url": "https://www.loc.gov/catworkshop/lcsh/PDF%20scripts/2-1-Structural-Overview.pdf",
+    "locator": "Printed pages 4–11 and 16–32; Literature record sh85077507, UF/BT/RT/notes",
+    "access_date": "2026-10-13"
+  },
+  "V04": {
+    "source_id": "V04",
+    "title": "MARC 21 Authority 150",
+    "url": "https://www.loc.gov/marc/authority/ad150.html",
+    "locator": "Topical term with x/y/z/v subdivisions; role and order are encoded",
+    "access_date": "2026-10-13"
+  },
+  "V05": {
+    "source_id": "V05",
+    "title": "MARC 21 Authority contents",
+    "url": "https://www.loc.gov/marc/authority/ecadhome.html",
+    "locator": "005, 040, 450, 550, 670, 680 and 008; source and status fields",
+    "access_date": "2026-10-13"
+  },
+  "V06": {
+    "source_id": "V06",
+    "title": "YSO official description",
+    "url": "https://finto.fi/yso/en/",
+    "locator": "Core YSO, including English; YSO places is separate; part-whole links, equivalence sources, concept collections",
+    "access_date": "2026-10-13"
+  },
+  "V07": {
+    "source_id": "V07",
+    "title": "YSO dogmatism concept",
+    "url": "https://finto.fi/yso/en/page/p290",
+    "locator": "Qualified concept record; English label and source/hierarchy/context, where supplied",
+    "access_date": "2026-10-13"
+  },
+  "V08": {
+    "source_id": "V08",
+    "title": "YSO percussion-instrument concept",
+    "url": "https://finto.fi/yso/en/page/p441",
+    "locator": "Broader/narrower references and concept metadata; source-record inspection",
+    "access_date": "2026-10-13"
+  },
+  "O01": {
+    "source_id": "O01",
+    "title": "SUMO Merge.kif",
+    "url": "https://raw.githubusercontent.com/ontologyportal/sumo/master/Merge.kif",
+    "locator": "Inspected branch on 13 October 2026: CaseRole, TransitiveRelation, subclass, documentation, termFormat; not commit-pinned",
+    "access_date": "2026-10-13"
+  },
+  "O02": {
+    "source_id": "O02",
+    "title": "SUMO WordNet 3.0 mappings",
+    "url": "https://raw.githubusercontent.com/ontologyportal/sumo/master/WordNetMappings/WordNetMappings30-adv.txt",
+    "locator": "Header defines = / + / @ and complements; offset 00001740 maps to AcapellaMusic; 00002436 maps to On",
+    "access_date": "2026-10-13"
+  },
+  "O03": {
+    "source_id": "O03",
+    "title": "CCO 2.2 merged ontology",
+    "url": "https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/develop/src/cco-merged/CommonCoreOntologiesMerged.ttl",
+    "locator": "Version IRI 2026-08-13; altLabel, restrictions, inverseOf, propertyChainAxiom, definition-source annotations; no source snapshot captured",
+    "access_date": "2026-10-13"
+  },
+  "O04": {
+    "source_id": "O04",
+    "title": "FrameBase schema",
+    "url": "https://www.framebase.org/schema",
+    "locator": "RDFS core, microframes, near-equivalence, source IDs and reversible 2.0 IRI grammar; some illustrations use 1.x IRIs",
+    "access_date": "2026-10-13"
+  },
+  "O05": {
+    "source_id": "O05",
+    "title": "FrameBase ReDer rules",
+    "url": "https://www.framebase.org/reder",
+    "locator": "Separating frame roles and isPartitionedIntoParts definite-clause example; included as published companion rules",
+    "access_date": "2026-10-13"
+  },
+  "O06": {
+    "source_id": "O06",
+    "title": "FrameBase data releases",
+    "url": "https://www.framebase.org/data",
+    "locator": "2.0 schema and companion rule descriptions; no credit for unrelated instance endpoint",
+    "access_date": "2026-10-13"
+  },
+  "G01": {
+    "source_id": "G01",
+    "title": "DBpedia ontology",
+    "url": "https://www.dbpedia.org/resources/ontology/",
+    "locator": "Mapping-based ontology profile, class hierarchy and properties; not an arbitrary RDF language envelope",
+    "access_date": "2026-10-13"
+  },
+  "G02": {
+    "source_id": "G02",
+    "title": "DBpedia Berlin record",
+    "url": "https://dbpedia.org/page/Berlin",
+    "locator": "Named entity, labels/abstract/type, sameAs and supplying encyclopedia-page route",
+    "access_date": "2026-10-13"
+  },
+  "G03": {
+    "source_id": "G03",
+    "title": "Wikidata statement model",
+    "url": "https://www.wikidata.org/wiki/Help:Statements",
+    "locator": "Statements, ranks, references, qualifiers, no-value and unknown-value; Marie Curie and value-state examples",
+    "access_date": "2026-10-13"
+  },
+  "G04": {
+    "source_id": "G04",
+    "title": "Wikidata qualifiers",
+    "url": "https://www.wikidata.org/wiki/Help:Qualifiers",
+    "locator": "Population and time; qualifiers apply to a statement, not simply to the subject",
+    "access_date": "2026-10-13"
+  },
+  "G05": {
+    "source_id": "G05",
+    "title": "Wikidata property constraints",
+    "url": "https://www.wikidata.org/wiki/Help:Property_constraints_portal",
+    "locator": "Native constraint statements; constraints do not guarantee truth or compliance",
+    "access_date": "2026-10-13"
+  },
+  "G06": {
+    "source_id": "G06",
+    "title": "Wikidata sources",
+    "url": "https://www.wikidata.org/wiki/Help:Sources",
+    "locator": "Reference properties, source URLs/items and retrieval dates; many individual claims remain unsourced",
+    "access_date": "2026-10-13"
+  },
+  "G07": {
+    "source_id": "G07",
+    "title": "YAGO 4.6 release",
+    "url": "https://yago-knowledge.org/downloads/yago-4-6",
+    "locator": "4.6 schema, facts, labels, RDF-star meta and excluded-statement logs; no transfer from 4.5 without checking",
+    "access_date": "2026-10-13"
+  },
+  "G08": {
+    "source_id": "G08",
+    "title": "YAGO 4.6 metadata sample",
+    "url": "https://yago-knowledge.org/data/yago4.6/samples/meta.txt",
+    "locator": "Belgium population/onDate and George Washington startDate/endDate statement annotations",
+    "access_date": "2026-10-13"
+  },
+  "G09": {
+    "source_id": "G09",
+    "title": "YAGO 4.6 schema sample",
+    "url": "https://yago-knowledge.org/data/yago4.6/samples/schema.txt",
+    "locator": "SHACL and property declarations in the release",
+    "access_date": "2026-10-13"
+  },
+  "G10": {
+    "source_id": "G10",
+    "title": "YAGO 4.6 labels sample",
+    "url": "https://yago-knowledge.org/data/yago4.6/samples/labels.txt",
+    "locator": "Label, alternateName, descriptions and sameAs/source identity links",
+    "access_date": "2026-10-13"
+  },
+  "G11": {
+    "source_id": "G11",
+    "title": "YAGO 4.6 excluded-statement sample",
+    "url": "https://yago-knowledge.org/data/yago4.6/samples/logs.txt",
+    "locator": "Log status describes rejected source statements, not accepted negative assertions",
+    "access_date": "2026-10-13"
+  },
+  "G12": {
+    "source_id": "G12",
+    "title": "ATOMIC 2020 author paper",
+    "url": "https://arxiv.org/html/2010.05953",
+    "locator": "Released textual head/relation/tail model; relation inventory including NotDesires and temporal relations; source construction",
+    "access_date": "2026-10-13"
+  },
+  "G13": {
+    "source_id": "G13",
+    "title": "ATOMIC 2020 release repository",
+    "url": "https://github.com/allenai/comet-atomic-2020",
+    "locator": "Published symbolic tuple resource, separate from generated COMET outputs",
+    "access_date": "2026-10-13"
+  },
+  "G14": {
+    "source_id": "G14",
+    "title": "ConceptNet API model",
+    "url": "https://github.com/commonsense/conceptnet5/wiki/API",
+    "locator": "Node/sense URIs, sources, dataset, surfaceText, weight and assertion records",
+    "access_date": "2026-10-13"
+  },
+  "G15": {
+    "source_id": "G15",
+    "title": "ConceptNet relation definitions",
+    "url": "https://github.com/commonsense/conceptnet5/wiki/Relations",
+    "locator": "Synonym, ExternalURL, PartOf, UsedFor, NotDesires and their intended meanings",
+    "access_date": "2026-10-13"
+  },
+  "G16": {
+    "source_id": "G16",
+    "title": "ConceptNet relation symmetry declarations",
+    "url": "https://raw.githubusercontent.com/commonsense/conceptnet5/master/conceptnet5/relations.py",
+    "locator": "SYMMETRIC_RELATIONS and negative relation names; source interpretation, not empirical path accuracy",
+    "access_date": "2026-10-13"
+  },
+  "G17": {
+    "source_id": "G17",
+    "title": "CSKG representation",
+    "url": "https://cskg.readthedocs.io/en/latest/representation/",
+    "locator": "Released columns and keys–piano–music join example; labels/sources may be empty",
+    "access_date": "2026-10-13"
+  },
+  "G18": {
+    "source_id": "G18",
+    "title": "CSKG release repository",
+    "url": "https://github.com/usc-isi-i2/cskg",
+    "locator": "Integrated seven sources; creation and source mappings. Embedding files are not assertion-confidence scores.",
+    "access_date": "2026-10-13"
+  },
+  "L01": {
+    "source_id": "L01",
+    "title": "BabelNet API guide",
+    "url": "https://babelnet.org/guide",
+    "locator": "Inspected v9 interface; published response version V5_3, synset types, sources, senses, glosses, examples and edge pointers; no API session executed",
+    "access_date": "2026-10-13"
+  },
+  "L02": {
+    "source_id": "L02",
+    "title": "BabelNet construction and source description",
+    "url": "https://babelnet.org/about",
+    "locator": "Lexical/encyclopedic sources and their attribution; account authorization is not implied",
+    "access_date": "2026-10-13"
+  },
+  "L03": {
+    "source_id": "L03",
+    "title": "FrameNet reader documentation",
+    "url": "https://www.nltk.org/howto/framenet.html",
+    "locator": "FrameNet 1.7 native frame, lexical-unit, FE, relation and sentence/corpus records; documentation examples, not locally run reader",
+    "access_date": "2026-10-13"
+  },
+  "L04": {
+    "source_id": "L04",
+    "title": "Global FrameNet description",
+    "url": "https://www.globalframenet.org/",
+    "locator": "Frames represent scenes; inter-frame semantic relationships; native FrameNet rather than the wider multilingual project is assessed",
+    "access_date": "2026-10-13"
+  },
+  "L05": {
+    "source_id": "L05",
+    "title": "OpenHowNet core dictionary and examples",
+    "url": "https://github.com/thunlp/OpenHowNet",
+    "locator": "Basic core: No.244401 sememe tree, SpeBrand examples, E_E field, sememe relations. Separately described BabelNet extension is not silently merged",
+    "access_date": "2026-10-13"
+  },
+  "L06": {
+    "source_id": "L06",
+    "title": "Princeton WordNet database specification",
+    "url": "https://wordnet.princeton.edu/documentation/wndb5wn",
+    "locator": "WordNet 3.0 offsets, words, pointers, syntactic verb frames and glosses",
+    "access_date": "2026-10-13"
+  },
+  "L07": {
+    "source_id": "L07",
+    "title": "WordNet relation and sense examples",
+    "url": "https://www.nltk.org/howto/wordnet.html",
+    "locator": "dog.n.01/car synsets; instance pointers, entailment, usage examples and sense keys",
+    "access_date": "2026-10-13"
+  },
+  "L08": {
+    "source_id": "L08",
+    "title": "WordNet glossary",
+    "url": "https://wordnet.princeton.edu/documentation/wngloss7wn",
+    "locator": "Synset, lexical/semantic relation, instance, entailment and usage-example definitions",
+    "access_date": "2026-10-13"
+  },
+  "G19": {
+    "source_id": "G19",
+    "title": "CSKG 1.0 archived release",
+    "url": "https://zenodo.org/records/4331372",
+    "locator": "Published 17 December 2020: cskg.tsv.gz and cskg_star.tsv.gz; embedding files are separate. The selected graph contract does not include weights.",
+    "access_date": "2026-10-13"
+  },
+  "L09": {
+    "source_id": "L09",
+    "title": "BabelNet 5.3 BabelPointer API",
+    "url": "https://babelnet.org/javadoc/5.3/it/uniroma1/lcl/babelnet/data/BabelPointer.html",
+    "locator": "Typed lexical/semantic pointer enumeration; not evidence that every pointer is instantiated in every synset.",
+    "access_date": "2026-10-13"
+  },
+  "M07": {
+    "source_id": "M07",
+    "title": "NumPy random-number compatibility policy",
+    "url": "https://numpy.org/doc/stable/reference/random/compatibility.html",
+    "locator": "Same-stream conditions require the same generator, calls, build and environment; a fixed seed alone is insufficient.",
+    "access_date": "2026-10-13"
+  }
+}

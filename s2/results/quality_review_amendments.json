@@ -1,0 +1,25 @@
+[
+  {
+    "candidate_id": "F1-003",
+    "test_id": "F1-C4c",
+    "previous_result": 1,
+    "result": null,
+    "reason": "General rules do not establish the specified Summary-specific redirection/exclusion witness."
+  },
+  {
+    "test_id": "F1-C2d",
+    "change": "Clarified incoming record-to-subject access; distinct from C4d outgoing evidence retrieval. No recoded outcomes."
+  },
+  {
+    "test_id": "F2-C2d",
+    "change": "Clarified complete qualified postcoordinate anchor service rather than an already established heading lookup. No recoded outcomes."
+  },
+  {
+    "test_id": "F3-C1d",
+    "change": "Clarified variable-clause versus fixed OWL template boundary, consistent with the recorded assessments. No recoded outcomes."
+  },
+  {
+    "candidate_id": "F4-010",
+    "change": "Removed the contradictory suggestion that the assessed TSV supplies assertion weights."
+  }
+]

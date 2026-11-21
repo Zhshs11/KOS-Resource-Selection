@@ -1,0 +1,1098 @@
+{
+  "allow_legacy_scores": false,
+  "allow_name_override": false,
+  "cross_family_pooling": false,
+  "date": "2026-10-13",
+  "denominator": 4,
+  "family_names": {
+    "F1": "Classification systems",
+    "F2": "Subject headings and controlled vocabularies",
+    "F3": "Ontologies and formal knowledge bases",
+    "F4": "Knowledge graphs and entity authorities",
+    "F5": "Lexical-semantic resources"
+  },
+  "nature": "Exploratory documentary conformance assessment; not preregistered and not an operational benchmark",
+  "score_meaning": "count of satisfied, equally valued obligations within the declared family profile",
+  "status_values": [
+    0,
+    1,
+    null
+  ],
+  "tests": [
+    {
+      "criterion": "C1",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Return an identified atomic subject category.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F1-C1a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Recover the category’s broader disciplinary context.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F1-C1b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Express a combination of independent subjects in source-defined compound notation.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F1-C1c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retain a separately interpretable place, time or form qualifier in a constructed class expression.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F1-C1d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Find a native reference from its canonical English caption.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F1-C2a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Use a separately supplied index term, keyword or note as an additional lexical access cue.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F1-C2b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Use source context to distinguish different subject interpretations of similar wording.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F1-C2c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Recover the native subject reference from a supplied external record’s classification assignment (record-to-subject anchoring, not subject-to-document retrieval).",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F1-C2d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow one source-defined broader/narrower step.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F1-C3a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow two hierarchical steps without inventing an intermediate subject.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F1-C3b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow a documented nonhierarchical class cross-reference.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F1-C3c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Navigate from a compound subject expression to its independently identified subject components.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F1-C3d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Return the caption and classification context for a located class.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F1-C4a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Return a class-specific explanatory or scope note beyond its caption.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F1-C4b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Return a source instruction that redirects or excludes a competing classification.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F1-C4c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F1",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Return a source-linked documentary record associated with the class rather than an unrestricted web search.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F1-C4d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Represent an identified controlled subject.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F2-C1a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Preserve an ordered cross-facet subject expression (topic together with place, time or form) and its subdivision roles. Within-topical precoordination alone is not this test.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F2-C1b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Distinguish topic from at least one place, time or form component through native field/facet types, rather than inferring the role from its label.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F2-C1c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retain a source qualification that distinguishes a subject meaning.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F2-C1d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Resolve a preferred subject expression to an existing reference.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F2-C2a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Resolve an authorized alternative expression through a native equivalence reference.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F2-C2b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Inspect source context that distinguishes a qualified or ambiguous subject label.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F2-C2c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "For a qualified subject input, supply its complete postcoordinate anchor set through the native model without constructing a new authorized compound heading; lookup of an already established heading alone is not this request.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F2-C2d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow a source broader/narrower subject relationship.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F2-C3a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow a source associative subject relationship.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F2-C3b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Keep lexical equivalence distinct from broader/narrower subject meaning.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F2-C3c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Keep separately encoded part-whole relations distinct from generic hierarchical relations.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F2-C3d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Return the native heading or concept content together with its identifier.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F2-C4a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Return a supplied note that clarifies the subject’s scope or use.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F2-C4b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Trace an authority/concept record to its documented supplying source or source vocabulary.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F2-C4c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F2",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retain a native record status or modification marker when exporting the evidence.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F2-C4d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Represent identified classes and typed relations.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F3-C1a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Represent a situation with more than two independently named participant roles.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F3-C1b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Express explicit logical restriction such as disjointness, negation or cardinality.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F3-C1c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Supply a native variable-bearing conditional clause with explicit logical scope beyond fixed class-restriction or property-chain templates; a published definite-clause rule qualifies.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F3-C1d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Locate a class or relation through its supplied English wording.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F3-C2a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Locate a meaning through an alternative lexical expression supplied by the source.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F3-C2b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Use released links between ontology references and an independent lexical-sense inventory.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F3-C2c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Distinguish equivalence, subsumption, instance or approximate meaning in the supplied lexical mapping.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F3-C2d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow native class-subclass relationships.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F3-C3a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow named participant or relation roles in their source direction.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F3-C3b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Use an explicitly stated inverse or subproperty relation instead of reversing edges indiscriminately.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F3-C3c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Apply a supplied non-taxonomic relation-composition or transitivity rule to a two-link path.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F3-C3d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve a source definition associated with an identified class or relation.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F3-C4a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve an individually inspectable schema statement or axiom.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F3-C4b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve a logical restriction or rule beyond plain RDFS subclass/subproperty propagation.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F3-C4c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F3",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Trace a lexical mapping or definition to its specified source record or source identifier.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F3-C4d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Represent a typed subject-relation-object assertion.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F4-C1a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Attach independently identified qualifications to an individual assertion.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F4-C1b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Represent an explicit negative claim or known absence rather than treating an omitted edge as false.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F4-C1c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Distinguish an unknown value from a known absence in the assertion representation.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F4-C1d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Locate a native node from supplied English text.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F4-C2a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow an explicit alias, synonym or equivalence route for an alternative expression.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F4-C2b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retain supplied sense, description or entity-type context instead of silently merging homonymous references.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F4-C2c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow a native cross-resource reference to an identified source concept or entity.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F4-C2d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow a relation in its documented semantic direction.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F4-C3a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Join two recorded links through the same native reference.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F4-C3b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Use a declared inverse, symmetric or subproperty meaning to interpret a reverse or equivalent transition.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F4-C3c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Consult native, machine-inspectable argument-type, domain/range or property-constraint declarations. A prose relation description alone is not this additional service.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F4-C3d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve a recorded assertion with a repeatable native locator.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F4-C4a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve assertion-associated attribution beyond the dataset’s general homepage.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F4-C4b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve a supplied rank, confidence or strength value with its documented interpretation.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F4-C4c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F4",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Select or inspect evidence using source/provenance or evidential-status metadata rather than the node label alone.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F4-C4d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Distinguish a lexical meaning from the word form expressing it.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F5-C1a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Represent named semantic participants or roles within that meaning.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F5-C1b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Represent nested compositional semantic structure inside one lexical meaning.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F5-C1c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C1",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Distinguish a named instance from a general lexical concept in the native semantic model.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2"
+      ],
+      "test_id": "F5-C1d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Locate native meanings from an English lexical expression.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F5-C2a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Use an explicit synonym/sense-equivalence grouping, not merely membership of the same situation frame.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F5-C2b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve meaning-bearing English gloss or structured semantic context for disambiguation.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F5-C2c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C2",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Resolve a supplied identifier from an independent lexical or encyclopedic source to the native meaning.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R3",
+        "R4"
+      ],
+      "test_id": "F5-C2d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow a documented semantic inheritance or hypernym relation.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F5-C3a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow a documented nonhierarchical semantic relation.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F5-C3b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retain the declared relation direction and its inverse/symmetry convention.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F5-C3c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C3",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Follow an explicit inter-frame participant correspondence rather than an untyped lexical association.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R2",
+        "R3"
+      ],
+      "test_id": "F5-C3d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve a gloss, frame definition or compositional meaning attached to its native reference.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F5-C4a",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve a source-supplied English contextual usage example for a native lexical meaning.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F5-C4b",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Recover the upstream source/document or annotated corpus location supplying a description or example, beyond the output record’s own identifier.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F5-C4c",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    },
+    {
+      "criterion": "C4",
+      "family": "F5",
+      "no_rule": "The requested facility is absent from, or incompatible with, the explicitly bounded representation being assessed. This is not a claim of universal resource incapacity.",
+      "obligation": "Retrieve source-defined entailment, inheritance or causative semantics supporting a limited inference rather than claiming arbitrary reasoning.",
+      "pass_rule": "The declared source profile supplies the requested distinction/route, established by a specification and a checkable example or complete bounded representation. Mere ability to add a new field or external semantic model is insufficient.",
+      "requirements": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "test_id": "F5-C4d",
+      "unknown_rule": "A missing source, uninspected field or disputed interpretation is Unknown and is not converted to a zero score."
+    }
+  ],
+  "title": "Family-specific native-service evidence audit",
+  "interpretation": "Counts cover a fixed set of family-specific native-service requests. They are source-based conformance observations, not population coverage, operational accuracy or a universal capability scale.",
+  "scope_policy": "Use the public content/profile identified for each candidate, together with its documented interpretation rules. No new semantic enrichment is credited. Documentation-level support is distinguished from an executed source-adapter benchmark.",
+  "clarification_record": [
+    "F2-C1b",
+    "F2-C1c",
+    "F4-C3d",
+    "F5-C4b",
+    "F5-C4c",
+    "F1-C2d",
+    "F2-C2d",
+    "F3-C1d"
+  ],
+  "eligibility_boundary": "The numerical audit assumes the confirmed panel remains admitted for documentary comparison. It does not re-verify R5 permissions, freeze complete releases, or certify implementation eligibility.",
+  "overlap_boundary": "F1-C2d and F1-C4d assess opposite access directions on shared assignment data. Related requests can share supporting features; equal contributions are an explicit value model, not proof of independent benefits."
+}

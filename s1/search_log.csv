@@ -1,0 +1,518 @@
+search_id,query_or_tracing_operation,channel,purpose,source_urls,results_and_limits
+F1-S01,"site.oclc.org Dewey Decimal Classification overview
+site.udcc.org UDC introduction universal decimal classification
+site.loc.gov Library of Congress Classification outline
+site.isko.org encyclopedia classification Chinese Library Nippon Decimal Colon Bliss",Public web search (actual queries in the same batch listed on separate lines),Existing seeds and general classification entry points,"https://help.oclc.org/Metadata_Services/WebDewey/WebDewey_Linked_Data/Main_classes
+https://udcc.org/index.php/site/page?view=about
+https://www.loc.gov/catdir/cpso/lcco/lccowp.html","Four actual queries; returned OCLC, UDCC, LOC, and NDC materials."
+F1-S02,"Bliss Bibliographic Classification BC2 official faceted
+Colon Classification Ranganathan classification official DRTC
+[English translation of the executed Japanese query] Nippon Decimal Classification Japan Library Association classification
+[English translation of the executed Chinese query] Chinese Library Classification official classification",Public web search (actual queries in the same batch listed on separate lines),Expand general library classifications and independent national systems,"https://book.ccps.gov.cn/newpub/introduction/cls
+https://www.blissclassification.org.uk/ClassC/C_prelims.pdf
+https://www.isibang.ac.in/~library/portal/Pages/chp3.pdf
+https://www.jla.or.jp/ndc/","Expanded from seeds to different organizational logics, without counting translations separately."
+F1-S03,"site.blissclassification.org.uk BC2 introduction classification
+site.rvk.uni-regensburg.de Regensburger Verbundklassifikation about classification
+site.nlm.nih.gov classification overview NLM classification
+site.isibang.ac.in Colon classification PMEST faceted",Public web search (actual queries in the same batch listed on separate lines),Verify maintainers and specialized library classifications,"https://classification.nlm.nih.gov/
+https://rvk.uni-regensburg.de/home?catid=2&id=181%3Aabout-rvk&view=article
+https://www.blissclassification.org.uk/ClassC/C_prelims.pdf
+https://www.isibang.ac.in/~library/portal/Pages/chp3.pdf",Further traced to classification maintenance organizations or original-author materials.
+F1-S04,"site.ams.org Mathematics Subject Classification MSC2020
+site.acm.org computing classification system 2012 polyhierarchical
+site.aeaweb.org JEL classification codes guide
+site.aps.org PhySH physics subject headings classification PACS",Public web search (actual queries in the same batch listed on separate lines),Expand disciplinary literature classifications,"https://journals.aps.org/PACS
+https://mathscinet.ams.org/mathscinet/msc/msc2020.html
+https://physh-alpha.aps.org/about
+https://www.acm.org/binaries/content/assets/publications/article-templates/ccs-howto-v6-12jan2015.pdf
+https://www.aeaweb.org/jel/guide/jel.php","Identified the PACS→PhySH succession relationship, retaining historical status."
+F1-S05,"site.wipo.int International Patent Classification hierarchical system symbols
+site.cooperativepatentclassification.org CPC scheme introduction
+site.wipo.int Locarno classification international classification industrial designs
+site.wipo.int Nice classification goods services trademarks",Public web search (actual queries in the same batch listed on separate lines),Expand classification families maintained by authoritative organizations,"https://www.cooperativepatentclassification.org/faq
+https://www.wipo.int/en/web/classification-ipc/faq
+https://www.wipo.int/en/web/classification-locarno/faq
+https://www.wipo.int/en/web/madrid-system/identify-trademark-goods-and-services","Established distinct object groups from WIPO patent, industrial design, and trademark resources."
+F1-S06,"site.who.int classifications ICD ICF ICHI reference classifications
+site.whocc.no ATC structure principles classification five levels
+site.wonca.net ICPC international classification primary care
+site.iconclass.org about classification hierarchical",Public web search (actual queries in the same batch listed on separate lines),WHO classification family and classification of artistic images,"https://ct.icpc-3.info/
+https://icd.who.int/docs/icd-api/ICDAPI-FHIR-Support/
+https://iconclass.org/help/basics
+https://www.who.int/Standards/Classifications/International-Classification-of-Functioning-Disability-and-Health
+https://www.who.int/standards/classifications/international-classification-of-health-interventions
+https://www.who.int/tools/atc-ddd-toolkit/atc-classification",Medical resources were distinguished by classification object; ICPC search results require further verification.
+F1-S07,"site.unstats.un.org international statistical classifications ISIC CPC COICOP
+site.uis.unesco.org ISCED fields education training classification 2013
+site.ilo.org ISCO international standard classification occupations hierarchy
+site.wcoomd.org harmonized system nomenclature six digit classification goods",Public web search (actual queries in the same batch listed on separate lines),"Expand statistical, educational, occupational, and commodity classifications","https://ilostat.ilo.org/methods/concepts-and-definitions/classification-economic-activities/
+https://isco.ilo.org/en/isco-08/
+https://www.uis.unesco.org/en/methods-and-tools/isced
+https://www.wcoomd.org/en/topics/nomenclature/overview/harmonized_system_faq.aspx?p=1","These are domain-specific statistical/coding classifications, distinct from general-purpose literature classifications."
+F1-S08,"site.unstats.un.org classifications ISIC CPC COICOP central product
+site.census.gov NAICS about classification system
+site.ec.europa.eu eurostat NACE classification statistical activities
+site.unspsc.org classification hierarchy segment family class commodity",Public web search (actual queries in the same batch listed on separate lines),Trace the United Nations directory and corresponding regional systems,"https://ec.europa.eu/eurostat/en/web/nace/guidance
+https://ilostat.ilo.org/methods/concepts-and-definitions/classification-economic-activities/
+https://unstats.un.org/unsd/classifications/Econ/Structure/Detail/EN/2094/01_1_8
+https://unstats.un.org/unsd/classifications/unsdclassifications/cpcv21.pdf
+https://www.census.gov/programs-surveys/economic-census/year/2022/guidance/understanding-naics.html
+https://www.undp.org/unspsc",Verified independent maintenance identities; national implementations were not listed repeatedly.
+F1-S09,"site.eclass.eu classification structure four levels properties ECLASS
+site.gs1.org standards gpc global product classification bricks
+site.simap.ted.europa.eu cpv classification common procurement vocabulary
+site.oecd.org Frascati fields research development classification FORD",Public web search (actual queries in the same batch listed on separate lines),"Expand product, procurement, and R&D field classifications","https://eclass.eu/support/technical-specification/structure-and-structural-elements
+https://gpc-browser.gs1.org/
+https://ted.europa.eu/en/simap/cpv
+https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/10/frascati-manual-2015_g1g57dcb/9789264239012-en.pdf",Distinguished category systems from identifiers and data standards organizations.
+F1-S10,"site.abs.gov.au ANZSRC 2020 classification fields research hierarchical
+site.iso.org international classification standards ICS hierarchical three levels
+site.wipo.int Vienna classification figurative elements marks hierarchical
+site.unstats.un.org COICOP 2018 hierarchical divisions groups classes categories",Public web search (actual queries in the same batch listed on separate lines),Trace related standards and verify structures,"https://unstats.un.org/unsd/classifications/Econ/Structure/Detail/EN/2094/01_1_8
+https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-research-classification-anzsrc/2020
+https://www.iso.org/iso/international_classification_for_standards.pdf
+https://www.wipo.int/en/web/treaties/classification/vienna/index",ANZSRC is counted as one system; Vienna and Nice classify different objects.
+F1-S11,"site.acm.org ""2012"" ""Classification"" ""poly""
+site.who.int ""International Classification of Health Interventions"" ""three axes""
+site.who.int ""International Classification of Functioning"" ""classification"" domains
+site.who.int ""ICD-11"" ""hierarchy"" classification",Public web search (actual queries in the same batch listed on separate lines),"Verify easily misinterpreted faceted, foundation-layer, and linearization structures","https://icd.who.int/docs/icd-api/ICDAPI-FHIR-Support/
+https://www.acm.org/binaries/content/assets/publications/article-templates/ccs-howto-v6-12jan2015.pdf
+https://www.who.int/Standards/Classifications/International-Classification-of-Functioning-Disability-and-Health
+https://www.who.int/standards/classifications/international-classification-of-health-interventions",Some ACM results were not from the original site; the official author guide was ultimately used. Unverified mirrors were not used as primary evidence.
+F1-S12,"ACM Computing Classification System official 2012 acm.org
+""site:who.int"" ""ICHI"" ""Target"" ""Action"" ""Means""
+site.unstats.un.org ""SITC"" ""five levels""
+site.unstats.un.org ""COFOG"" ""divisions"" ""groups"" ""classes""",Public web search (actual queries in the same batch listed on separate lines),Complete official evidence and candidates linked from directories,"https://unstats.un.org/unsd/classifications/cofog/revision
+https://www.acm.org/binaries/content/assets/publications/article-templates/ccs-howto-v6-12jan2015.pdf
+https://www.qgso.qld.gov.au/about-statistics/statistical-standards-classifications/standard-international-trade-classification",Search-indexed text from the official ACM guide explicitly returned a six-level example; SITC was cross-checked against government statistical descriptions and the UNSD directory.
+F1-S13,"site.who.int ICHI classification target action means
+site.unspsc.org about UNSPSC UNDP GS1",Public web search (actual queries in the same batch listed on separate lines),Resolve ICHI's axis structure and differences in UNSPSC maintainers/level counts,"https://www.undp.org/unspsc
+https://www.who.int/standards/classifications/international-classification-of-health-interventions",Found WHO's original three-axis description and UNDP's current page; differences in hierarchy levels were not simply erased.
+F1-S14,"site.globalfamilydoctor.com ICPC classification WICC chapters components
+site.icpc-3.info ICPC classification chapters
+site.blissclassification.org.uk ""faceted"" ""BC2""
+[English translation of the executed Chinese query] site.clc.nlc.cn Chinese Library Classification classification",Public web search (actual queries in the same batch listed on separate lines),Check the current ICPC website and original BC2 schedules; try the CLC maintainer's site.,"https://book.ccps.gov.cn/newpub/introduction/cls
+https://ct.icpc-3.info/
+https://www.blissclassification.org.uk/ClassC/C_prelims.pdf","Searching the CLC maintainer's domain yielded no usable original page, so the official institutional introduction was retained. Indexed text of the official BC2 PDF was readable."
+F1-S15,"site.philpapers.org taxonomy categories philosophy browse
+site.usgs.gov library classification system geologic
+site.apa.org pubs databases training classification psycinfo psyctests
+site.elsevier.com Scopus ASJC classification subject areas",Public web search (actual queries in the same batch listed on separate lines),"Check gaps against the resource table in Salatino et al.'s survey, covering philosophy, geoscience, psychology and journal classifications.","https://philpapers.org/help/categorization.html
+https://www.elsevier.support/scopus/answer/what-are-scopus-subject-area-categories-and-asjc-codes
+https://www.usgs.gov/publications/us-geological-survey-library-classification-system","Use the original table for discovery, then check each resource's maintainer."
+F1-S16,"site.apa.org ""PsycInfo"" ""classification codes""
+site.arxiv.org category taxonomy subjects
+site.dfg.de review boards subject areas classification
+site.erc.europa.eu ERC panel structure research domains",Public web search (actual queries in the same batch listed on separate lines),Expand coverage of literature classification and research review fields.,"https://arxiv.org/category_taxonomy
+https://erc.europa.eu/system/files/2026-08/Panel-Structure.pdf
+https://www.apa.org/pubs/databases/training/class-codes
+https://www.dfg.de/resource/blob/331950/85717c3edb9ea8bd453d5110849865d3/fachsystematik-2024-2028-en-data.pdf",General arXiv searches returned mixed results; the official Category Taxonomy was subsequently opened directly for verification.
+F1-S17,"site.arxiv.org ""Category Taxonomy""
+site.science-metrix.com classification scientific journals ontology subfields
+site.webofscience.help.clarivate.com ""Web of Science Categories""
+site.apa.org ""PsycTests"" ""Classification Codes""",Public web search (actual queries in the same batch listed on separate lines),Check classification units and hierarchical boundaries in bibliometrics and psychological measurement.,"https://arxiv.org/category_taxonomy
+https://webofscience.zendesk.com/hc/en-us/articles/27505726032017-Web-of-Science-Subject-Categories
+https://www.apa.org/pubs/databases/training/psyctests-class-codes.html
+https://www.science-metrix.com/classification/",The official Science-Metrix text was readable through search. WoS help identifies subject categories at the source-publication level.
+F1-S18,"site.dfg.de ""Classification"" ""2024-2028"" subject
+site.erc.europa.eu ""Panel-Structure.pdf""
+site.docs.openalex.org topics domain field subfield
+site.graph.openaire.eu ""Fields of Science""",Public web search (actual queries in the same batch listed on separate lines),Find current official classification documents and topic components of research platforms.,"https://erc.europa.eu/system/files/2026-08/Panel-Structure.pdf
+https://github.com/iNoBo/scinobo-fos-taxonomy
+https://help.openalex.org/data/subfields/
+https://www.dfg.de/resource/blob/331950/85717c3edb9ea8bd453d5110849865d3/fachsystematik-2024-2028-en-data.pdf",DFG and ERC are not counted separately by year. The OpenAIRE API page uses OECD codes; further tracing checks whether it independently extends them.
+F1-S19,"site.microsoft.com research fields of study hierarchy academic graph retired
+site.nature.com ""Subjects"" ""ontology""
+site.unesco.org ""nomenclature"" ""fields of science""
+site.research-and-innovation.ec.europa.eu taxonomy ""scientific disciplines""",Public web search (actual queries in the same batch listed on separate lines),"Expand coverage of historical automated classifications, publishing subject classifications and UNESCO research classifications.","https://op.europa.eu/en/web/eu-vocabularies/euroscivoc
+https://wiki.dnb.de/spaces/DINIAGKIM/pages/152018141/F%C3%A4chersystematiken%2Bim%2BHochschulbereich
+https://www.microsoft.com/en-us/research/articles/expanding-concept-understanding-in-microsoft-academic-graph/
+https://www.nature.com/subjects/zoology/nature",Some queries did not locate the primary schedule. Further targeted searches were retained; encyclopedias did not replace primary evidence.
+F1-S20,"site.microsoft.com ""Next Steps for Microsoft Academic""
+site.nature.com/subjects ""Browse narrower subjects""
+site.unesdoc.unesco.org ""Proposed international standard nomenclature""",Public web search (actual queries in the same batch listed on separate lines),"Verify MAG's discontinuation, Nature's explicit broader/narrower relations and leads to original UNESCO documents.","https://wiki.dnb.de/spaces/DINIAGKIM/pages/152018141/F%C3%A4chersystematiken%2Bim%2BHochschulbereich
+https://www.microsoft.com/en-us/research/articles/expanding-concept-understanding-in-microsoft-academic-graph/
+https://www.nature.com/subjects/zoology/nature",MAG's official announcement confirmed discontinuation. UNESCO was traced further through the original schedule cited in a UN document.
+F1-S21,"site.cordis.europa.eu EuroSciVoc taxonomy fields science five levels
+""SciNoBo"" ""OECD"" ""taxonomy""
+site.unesco.org ""nomenclature"" ""1988"" ""technology""
+site.frontiersin.org ""SciNoBo"" ""levels""",Public web search (actual queries in the same batch listed on separate lines),Check EuroSciVoc's group assignment and the reused sources behind OpenAIRE/SciNoBo.,"https://github.com/iNoBo/scinobo-fos-taxonomy
+https://op.europa.eu/en/web/eu-vocabularies/euroscivoc
+https://wiki.dnb.de/spaces/DINIAGKIM/pages/152018141/F%C3%A4chersystematiken%2Bim%2BHochschulbereich","Located EuroSciVoc's main official description, the original SciNoBo paper and its authors' repository. The six-level model must not be equated with the platform's current API output."
+F1-S22,"""UNESCO"" ""082946"" nomenclature
+""Nomenclatura internacional"" ""UNESCO"" site:ciencia.gob.es
+""SciNoBo"" ""Kotitsas"" ""2023""
+""Nature Subjects"" ""ontology"" site:github.com/nature",Public web search (actual queries in the same batch listed on separate lines),"Further check paper metadata, the original UNESCO document and subject-ontology names.","https://github.com/iNoBo/scinobo-fos-taxonomy
+https://wiki.dnb.de/spaces/DINIAGKIM/pages/152018141/F%C3%A4chersystematiken%2Bim%2BHochschulbereich
+https://www.nature.com/subjects/zoology/nature",The original SciNoBo paper opened successfully. Some targeted UNESCO and Nature queries provided no new direct evidence.
+F1-S23,"""Proposed international standard nomenclature for fields of science and technology"" UNESCO
+""UNESCO"" ""nomenclatura"" ""dos"" ""cuatro"" ""seis"" site:educacionfpydeportes.gob.es
+""UNESCO"" ""Nomenclature"" site:skos.um.es",Public web search (actual queries in the same batch listed on separate lines),Trace the original schedule title to UNESCO and the DNB directory of specialized classifications.,https://wiki.dnb.de/spaces/DINIAGKIM/pages/152018141/F%C3%A4chersystematiken%2Bim%2BHochschulbereich,The DNB directory provides the original UNESCO record and a hierarchy description. National extensions and representation conversions are noted without increasing the count.
+F1-O01,"Open WHO's classification overview, the UNSD economic classifications directory, the CPC FAQ, WHO's ICPC page, the original Bliss schedules, ACM's author guidance, the original author's DRTC page and ISKO's BC2 entry.",Open public pages; tracing authoritative directories,"Verify candidates, versions and structural evidence in directories; distinguish platforms from individual KOS.","https://www.who.int/standards/classifications/
+https://unstats.un.org/unsd/classifications/econ/
+https://www.cooperativepatentclassification.org/faq
+https://www.who.int/standards/classifications/other-classifications/international-classification-of-primary-care
+https://www.blissclassification.org.uk/Class1/introduction.pdf
+https://www.blissclassification.org.uk/ClassW/prelims.pdf
+https://www.acm.org/binaries/content/assets/publications/article-templates/ccs-howto-v6-12jan2015.pdf
+https://www.isko.org/cyclo/bc2
+https://drtc.isibang.ac.in/our_founder","WHO, UNSD, the CPC FAQ and WHO's ICPC page opened successfully. Some direct opens for Bliss, ACM, ISKO and DRTC failed. Sources verifiable through indexed text were explicitly retained; successful retrieval of every full text is not claimed."
+F1-R01,"Find Frascati in the official ANZSRC description, then click its cited Frascati Manual 2015 link.",Find on public pages + click; tracing reuse and conceptual foundations,"Check ANZSRC's adoption of OECD R&D definitions and classification principles, connecting the FORD and ANZSRC lineages.","https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-research-classification-anzsrc/2020
+https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html","Visited ANZSRC's citation paragraph and clicked the source manual. The page states that it largely follows OECD guidelines. This confirms conceptual foundations or comparison, not direct copying of every FORD category. No citation database was used."
+F1-R02,Open the UNSD economic classifications directory and click ISIC and CPC; inspect the Correspondences section of the CPC page.,Open public pages + click; tracing authoritative directories and related resources,"Check the distinct identities of ISIC/CPC, grounds for merging versions, and relations to HS, SITC and COICOP.","https://unstats.un.org/unsd/classifications/econ/
+https://unstats.un.org/unsd/classifications/Econ/ISIC.cshtml
+https://unstats.un.org/unsd/classifications/Econ/CPC.cshtml",Clicked both classification homepages and checked that correspondence tables exist. No complete mapping table was downloaded or validated row by row.
+F1-R03,Find IPC in the official CPC FAQ; find PACS in PhySH About.,Find on public pages; tracing resource history and relationships,Distinguish CPC/IPC format and evolution relationships from PhySH's replacement of PACS.,"https://www.cooperativepatentclassification.org/faq
+https://physh-alpha.aps.org/about","The older official CPC FAQ describes IPC-compatible formatting and migration from ECLA/USPC. PhySH explicitly states that it replaces PACS. Replacement is distinct from versioning, so both are retained; item-by-item reuse is not claimed."
+F1-L01,"Open the abstract of A Survey on Knowledge Organization Systems of Research Fields: Resources and Challenges, click HTML, read Sections 3.2–3.3, Tables 1 and 4 and related explanations, then search resource names for maintainer pages.",Open public pages + click; tracing survey resource tables and literature chains,"Check gaps against a published resource catalog, recording publications separately from actual knowledge organization resources.","https://arxiv.org/abs/2409.04432
+https://arxiv.org/html/2409.04432v3","The survey supports candidate discovery. Its total count and English-only restriction were not adopted, and its database searches or expert consultation were not replicated. Platforms such as OBO/BioPortal were not counted as single systems. LCC/LCSH and the two APA classifications follow this round's resource-identity rules."
+F1-R04,Find MindPapers on the PhilPapers help page and click the link; find Classification on APA's PsycInfo classification page and click the PsycTests link.,Open public pages + find + click; checking resource origins and distinct identities,Check the expansion from MindPapers to PhilPapers and the distinction between the two APA classifications.,"https://philpapers.org/help/categorization.html
+https://consc.net/mindpapers/
+https://www.apa.org/pubs/databases/training/class-codes
+https://www.apa.org/pubs/databases/training/psyctests-class-codes.html","The MindPapers link redirected to PhilPapers. Extraction from the clicked APA page was empty, but official search results for the same system's .html page returned the full description. The redirect was not treated as the original historical full text."
+F1-R05,Open metadata for two USGS report editions and click View Document; open the ERC document directory and click Panel-Structure.pdf; trace the original UNESCO record through DNB's directory of academic subject classifications.,Open public pages + click; tracing authoritative directories to original classification documents,Check structures and version-merging decisions for specialized and research-field classifications.,"https://www.usgs.gov/publications/us-geological-survey-library-classification-system-1
+https://www.usgs.gov/publications/us-geological-survey-library-classification-system
+https://erc.europa.eu/support/document-library
+https://erc.europa.eu/system/files/2026-08/Panel-Structure.pdf
+https://wiki.dnb.de/spaces/DINIAGKIM/pages/152018141/F%C3%A4chersystematiken%2Bim%2BHochschulbereich
+https://unesdoc.unesco.org/ark:/48223/pf0000082946","The ERC PDF parsed successfully. The USGS PDF returned 403, so the official report abstract was retained. The original UNESCO page had no extractable body text; the DNB working-group directory is the primary evidence, without claiming to have read the entire original schedule."
+F1-R06,"Read scope notes in the arXiv Category Taxonomy, About for OpenAlex Subfields, the source paragraph for Science-Metrix Classification, and MAG's extension description and discontinuation announcement.",Open public pages / official indexed text; checking leads on reuse of existing resources,"Record distinct relationships: approximate scope correspondence between arXiv and ACM, OpenAlex's use of ASJC, Science-Metrix's use of existing journal classifications, and MAG's use of UMLS.","https://arxiv.org/category_taxonomy
+https://help.openalex.org/data/subfields/
+https://www.science-metrix.com/classification/
+https://www.microsoft.com/en-us/research/articles/expanding-concept-understanding-in-microsoft-academic-graph/
+https://www.microsoft.com/en-us/research/?p=743605","Scope correspondence, group reuse, seed adoption and discontinued maintenance are recorded separately; these do not all mean direct copying of an entire system. Direct opening of Science-Metrix failed, but its official indexed text was verifiable."
+F1-R07,Trace the DOI cited on OpenAIRE's FoS page to the original paper; open the authors' SciNoBo repository and click its first Publications item; find ScienceMetrix in the paper and click the source footnote; check EuroSciVoc's official description.,Open public pages + find + click; tracing resource to original paper to reused resource,"Distinguish a platform view of FORD from added hierarchical levels, and determine EuroSciVoc's primary group.","https://explore.openaire.eu/fields-of-science
+https://graph.openaire.eu/docs/apis/graph-api/research-products/fields-of-science/
+https://github.com/iNoBo/scinobo-fos-taxonomy
+https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2023.1149834/full
+https://science-metrix.com/
+https://op.europa.eu/en/web/eu-vocabularies/euroscivoc","The first DOI open failed, but the publisher's full HTML subsequently opened. Section 2.1, Tables 1 and 2 and the hierarchy-extension explanation were read. The authors' repository link corroborated the paper's identity. The Science-Metrix footnote timed out, so existing official search evidence was retained."
+F2-S01,"site.bartoc.org thesaurus subject headings multilingual vocabulary
+site:loc.gov LCSH LCGFT demographic group terms LCDGT
+site:fao.org AGROVOC ASFA AGROVOC thesaurus
+site:op.europa.eu EuroVoc thesaurus multilingual","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://wwws.loc.gov/aba/publications/FreeLCDGT/freelcdgt.html
+https://agrovoc.fao.org/browse/agrovoc/en/
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fdataset%2Feurovoc","The first BARTOC query had incorrect site syntax; no BARTOC record was included on that basis. The entries are independent queries, not one AND expression."
+F2-S02,"site:bartoc.org subject headings thesauri knowledge organization systems
+site:nlm.nih.gov MeSH controlled vocabulary thesaurus
+site:oclc.org FAST faceted application subject terminology
+site:loc.gov LCSH subject headings LCGFT LCMPT thesaurus","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://www.loc.gov/librarians/controlled-vocabularies/
+https://www.oclc.org/research/areas/data-science/fast.html
+https://www.nlm.nih.gov/mesh/introduction.html",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S03,"site:unesco.org UNESCO thesaurus structured list terms
+site:eionet.europa.eu GEMET thesaurus general multilingual
+site:zbw.eu STW Thesaurus economics
+site:gesis.org TheSoz thesaurus social sciences","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://www.eionet.europa.eu/gemet/en/about/
+https://www.zbw.eu/stw/version/latest/about.en.html",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S04,"UNESCO thesaurus about vocabulary site:vocabularies.unesco.org
+TheSoz thesaurus GESIS official skos
+ERIC thesaurus descriptor hierarchy site:eric.ed.gov
+National Agricultural Library thesaurus NALT about site:nal.usda.gov","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://vocabularies.unesco.org/unesco/en/
+https://arxiv.org/abs/1209.5850
+https://eric.ed.gov/pdf/ERIC_Thesaurus_Descriptors_Assigned.pdf
+https://lod.nal.usda.gov/en/en/en/",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S05,"site:bnf.fr RAMEAU langage indexation encyclopedique
+site:dnb.de GND authority subject headings
+site:bncf.firenze.sbn.it Nuovo Soggettario thesaurus
+site:bsn.ulaval.ca RVM répertoire vedettes matière thesaurus","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://rameau.bnf.fr/node/232
+https://thes.bncf.firenze.sbn.it/index_eng.html",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S06,"""GND"" ""Integrated Authority File"" site:dnb.de
+""Répertoire de vedettes-matière"" site:rvmweb.bibl.ulaval.ca
+""LEMAC"" site:bnc.cat
+""YSO"" ""General Finnish Ontology"" site:finto.fi","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.",https://finto.fi/yso/en/?anylang=on&clang=en,Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S07,"RVM repertoire vedettes matiere universite laval thesaurus
+LEMAC Biblioteca Catalunya llista encapcalaments materia
+National Diet Library Subject Headings NDLSH introduction
+Sears list subject headings EBSCO","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://bibl.ulaval.ca/la-bibliotheque/repertoire-de-vedettes-matiere-rvm
+https://www.ndl.go.jp/data/classification_subject
+https://searslistofsubjectheadings.com/",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S08,"site:getty.edu AAT art architecture thesaurus hierarchical associative
+site:cessda.eu ELSST thesaurus broader narrower
+site:ilo.org ILO thesaurus controlled vocabulary
+site:apa.org thesaurus psychological index terms","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://www.getty.edu/research/tools/vocabulary/aat/AAT-Users-Manual.pdf
+https://www.cessda.eu/News/CESSDA-Newsitem-nid82
+https://metadata.ilo.org/thesaurus.html
+https://www.apa.org/pubs/databases/training/thesaurus",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S09,"site:cabi.org thesaurus CAB controlled vocabulary
+site:theiet.org Inspec thesaurus controlled hierarchical
+site:iaea.org INIS thesaurus ETDE
+site:nasa.gov thesaurus GCMD keywords hierarchical","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://help.cabi.org/cabi-digital-library-help/search/cabis-controlled-vocabulary-and-cabi-thesaurus
+https://inspec-analytics.theiet.org/inspec-analytics-user-guide/
+https://www-pub.iaea.org/MTCD/Publications/PDF/JRS1r2_web.pdf
+https://earthdata.nasa.gov/s3fs-public/imported/KeywordsCommunityGuide_Baseline_v1_SIGNED_FINAL.pdf",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S10,"site:homosaurus.org about linked data vocabulary broader
+site:natlib.govt.nz Nga Upoko Tukutuku Maori subject headings
+site:rbms.info controlled vocabularies rare materials thesaurus
+site:trb.org transportation research thesaurus TRT","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://trt.trb.org/how-to-use
+https://natlib.govt.nz/librarians/nga-upoko-tukutuku/how-nga-upoko-tukutuku-works",Direct retrieval of Homosaurus was restricted by robots rules; later batches checked publicly visible official indexed text.
+F2-S11,"site:loinc.org what is LOINC parts axes hierarchy
+site:nlm.nih.gov RxNorm overview normalized names drugs
+site:nlm.nih.gov UMLS Metathesaurus semantic network overview
+site:elsevier.com Emtree thesaurus hierarchy","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://loinc.org/start
+https://www.nlm.nih.gov/research/umls/rxnorm/overview.html
+https://www.nlm.nih.gov/research/umls/index.html",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S12,"site:rbms.info vocabularies controlled rare materials
+Homosaurus international LGBTQ linked data vocabulary official about
+NASA thesaurus subject terms hierarchical site:sti.nasa.gov
+NERC P01 parameter usage vocabulary site:bodc.ac.uk","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://homosaurus.org/about
+https://www.sti.nasa.gov/nasa-thesaurus/
+https://rbms.info/cv-comments/2024/07/31/cvrmc-gathering-terms/
+https://www.bodc.ac.uk/resources/vocabularies/parameter_codes/",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S13,"site:loc.gov thesaurus graphic materials TGM about
+site:ligatus.org.uk language of bindings thesaurus
+site:heritagedata.org FISH monument type thesaurus
+site:britishmuseum.org thesaurus object names","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.",https://guides.loc.gov/tgm-i/summary-of-features/structure-and-syntax,Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S14,"LEMAC site:dades.bnc.cat/autoritats/lemac
+site:nlc.cn Chinese Thesaurus Chinese Classified Thesaurus [English translation of executed Chinese query]
+site:bnm.gov.cn Chinese Thesaurus [English translation of executed Chinese query]
+site:bac-lac.gc.ca Canadian subject headings CSH","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://dades.bnc.cat/autoritats/lemac/registre/19918/1
+https://olcc.nlc.cn/news/1.mhtml",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+F2-S15,"GND Integrated Authority File dnb persons subject headings linked data
+Canadian Subject Headings Library Archives Canada about thesaurus
+Emtree thesaurus Elsevier biomedical hierarchy
+Language of Bindings thesaurus Ligatus concepts hierarchy","Public web searches, including site restrictions; checking official indexed excerpts/text","Locate and verify the identities and organization of subject heading systems, thesauri and controlled terminologies.","https://library-archives.canada.ca/eng/services/services-libraries/cataloguing/pages/canadian-subject-headings.aspx
+https://www.elsevier.support/embase/answer/what-is-emtree-and-how-do-i-use-it
+https://lob.is.ed.ac.uk/help
+https://d-nb.info/datasets/authorities_20190328",Extracted from public evidence. No exhaustive database search or vocabulary download was performed.
+ROOT-LIT01,"knowledge organization systems classification thesauri ontologies survey Hodge 2000 digital libraries
+BARTOC terminology registry knowledge organization systems paper 2017",Public web / original-paper searches,"Add literature-based discovery paths; trace KOS types, examples and registries.","https://www.clir.org/pubs/reports/pub91/1knowledge/
+https://eprints.rclis.org/29366/
+https://arxiv.org/abs/2409.04432
+https://arxiv.org/abs/1801.04479","Checked relevant sections of Hodge's report. The F1 search branch checked the 2024 survey's resource table for gaps. BARTOC is a discovery entry point, not a candidate."
+F2-SB01,Source tracing: RAMEAU → RVM/LCSH; YSO → YSA/Allärs; ASFA → AGROVOC; UMLS → MeSH/LOINC/RxNorm/SNOMED CT; LoB → AAT/CIDOC CRM,CLeAR resource-level snowballing through official source/reuse descriptions,"Record dependencies and derivations, identifying traceable candidates and subschemes that should not be counted twice.","https://rameau.bnf.fr/node/232
+https://finto.fi/yso/en/?anylang=on&clang=en
+https://www.fao.org/asfa/news/latest-additions-to-the-asfa-thesaurus/en
+https://www.nlm.nih.gov/research/umls/index.html
+https://lob.is.ed.ac.uk/help","These chains represent source vocabularies, reuse or aggregation. External mappings are not automatically treated as reuse, and the chains are not citation counts."
+ROOT-Q01,"(ontology OR taxonomy OR thesaurus OR ""knowledge organization system"") AND (""research fields"" OR science) survey resources
+(thesaurus OR ""controlled vocabulary"" OR ""subject headings"") AND (environment OR agriculture OR medicine) structured resources
+(ontology OR ""knowledge graph"" OR ""semantic network"") AND (culture OR geography OR industry) reusable resources",Public web and paper searches combining type and domain,Combine CLeAR resource-type and domain terms to check gaps in named-resource searches.,"https://arxiv.org/abs/2409.04432
+https://apps.usgs.gov/thesaurus/
+https://help.eds.ukri.org/article/5112-controlled-vocabularies","Three independent queries were executed. They added USGS Thesaurus and nursing/PSH leads, followed by targeted verification. Web result totals were not treated as publication-screening counts."
+F2-S16,"CINAHL subject headings controlled vocabulary site:ebsco.com
+Polythematic Structured Subject Heading System PSH site:techlib.cz
+Open https://apps.usgs.gov/thesaurus/",Targeted searches / original-source access,Confirm the identities and organizational logic of vocabularies discovered through broad searches.,"https://apps.usgs.gov/thesaurus/
+https://about.ebsco.com/products/research-databases/cinahl-database
+https://www.techlib.cz/en/82958-tech-subject-headings",Direct USGS retrieval failed; clear official indexed evidence was retained with the limitation stated. The PSH official page lists a paper; the author manuscript's abstract and structural passages were checked.
+F3-S01,site.obofoundry.org ontology registry ontologies | DOLCE ontology official BFO SUMO UFO ontology | Cyc ontology official schema.org ontology,Web search,Establish authoritative ontology directories and seeds for upper-level/lightweight ontologies.,"https://obofoundry.org/
+https://obofoundry.org/ontology/bfo.html
+https://schema.org/docs/datamodel.html","OBO is a directory, not a candidate. Count systems rather than products or formats."
+F3-S02,site.ontologyportal.org SUMO ontology | site.loa.istc.cnr.it dolce ontology | site.nemo.inf.ufes.br UFO unified foundational ontology | site.informatik.uni-leipzig.de GFO ontology,Web search,Check upper ontologies and their lineages.,"https://ontologyportal.org/
+https://www.loa.istc.cnr.it/index.php/dolce/
+https://nemo.inf.ufes.br/projetos/ufo/",Encyclopedias and forums were excluded as inclusion evidence.
+F3-S03,GFO General Formal Ontology onto-med official | gist ontology semantic arts official | Cyc knowledge base ontology official | YAMATO upper ontology Mizoguchi official,Web search,Expand foundational ontologies across theoretical approaches.,"https://www.onto-med.de/ontologies/gfo/
+https://www.semanticarts.com/gist/
+https://cyc.com/platform/
+https://www.hozo.jp/onto_library/AO-YAMATO_final.pdf",YAMATO is supported by the original author's paper.
+F3-S04,site.w3.org TR prov-o ontology | site.w3.org TR vocab-org organization ontology | site.w3.org TR owl-time ontology | FOAF specification official ontology,Web search,"Find cross-domain semantic systems for processes, organizations, social relations and time.","https://www.w3.org/TR/prov-o/
+https://www.w3.org/TR/vocab-org/
+https://www.w3.org/TR/owl-time/
+https://xmlns.com/foaf/spec/?content_language=English",OWL-Time is a content ontology for time; the OWL language is excluded.
+F3-S05,site.w3.org vocab-ssn Semantic Sensor Network ontology | site.cidoc-crm.org CIDOC CRM ontology scope | site.qudt.org quantity units ontology | site.edmcouncil.org FIBO ontology,Web search,"Add observation, measurement, cultural heritage and finance.","https://www.w3.org/TR/vocab-ssn-2023/
+https://www.qudt.org/
+https://cidoc-crm.org/scope
+https://spec.edmcouncil.org/fibo/index.html",SSN and its SOSA core are counted together.
+F3-S06,site.saref.etsi.org SAREF ontology | site.brickschema.org Brick ontology | site.w3id.org bot building topology ontology | site.ogc.org GeoSPARQL ontology,Web search,"Expand Internet of Things, buildings and geospatial coverage.","https://saref.etsi.org/
+https://brickschema.org/
+https://w3c-lbd-cg.github.io/bot/index.html
+https://docs.ogc.org/is/22-047r1/22-047r1.html",Only GeoSPARQL's ontology content is included; the query language is not listed separately.
+F3-S07,SWEET ontology ESIP official | EMMO elementary multiperspective material ontology official | GoodRelations ontology official hepp | site.loc.gov BIBFRAME ontology model,Web search,"Expand environment, materials, commerce and bibliography coverage.","https://esipfed.github.io/sweet/
+https://emmo-repo.github.io/
+https://www.heppnetz.de/ontologies/goodrelations/v1.html
+https://wwws.loc.gov/bibframe/",SWEET modules are merged. EMMO's renamed forms remain one system.
+F3-S08,"OBO Foundry directory → ENVO, GO, ChEBI, CL, DOID and Mondo entries",Tracing authoritative directories through browsing and clicking,"Cover environment, molecular function, chemicals, cells and diseases; check candidate independence.","https://obofoundry.org/ontology/envo.html
+https://obofoundry.org/ontology/go.html
+https://obofoundry.org/ontology/chebi.html
+https://obofoundry.org/ontology/cl.html
+https://obofoundry.org/ontology/doid.html
+https://obofoundry.org/ontology/mondo.html",Browsed the OBO directory and clicked all six entries individually. No ontology data were downloaded.
+F3-S09,site.obofoundry.org/ontology/foodon.html foodon ontology | site.obofoundry.org/ontology/agro.html agronomy ontology | site.obofoundry.org/ontology/iao.html information artifact | site.obofoundry.org/ontology/uberon.html anatomy ontology,Directory tracing plus web searches,"Check food, information, agriculture and cross-species anatomy systems.","https://foodon.org/
+https://obofoundry.org/ontology/iao
+https://obofoundry.org/ontology/agro.html
+https://github.com/obophenotype/uberon","Clicked FoodOn/AGRO/IAO entries, then located FoodOn and Uberon project descriptions through search. Also discovered the OBO anatomy portal."
+F3-S10,Human Phenotype Ontology official | SNOMED CT logical model concepts relationships official | NCI Thesaurus ontology official | Foundational Model Anatomy ontology official Washington,Web search,Check group boundaries for medical ontologies and logically defined terminologies.,"https://obophenotype.github.io/human-phenotype-ontology/
+https://docs.snomed.org/snomed-ct-specifications/snomed-ct-release-file-specification/logical-model/2.1-high-level-logical-model-of-snomed-ct
+https://evs.nci.nih.gov/thesaurus-downloads
+https://bioportal.bioontology.org/ontologies/FMA/",SNOMED CT and NCIt have F2 cross-tags. FMA uses its BioPortal entry and leads to its developers' papers.
+F3-S11,site.obofoundry.org/ontology obi ontology biomedical investigations | site.obofoundry.org/ontology pato phenotype trait ontology | site.obofoundry.org/ontology pr protein ontology | site.obofoundry.org/ontology so sequence ontology,Web search,"Check systems for experiments, phenotypes, proteins and sequences.","https://obi-ontology.org/
+https://obofoundry.org/ontology/pato.html
+https://obofoundry.org/COB/",Search results mainly confirmed OBI and PATO. PRO/SO directory entries were subsequently opened directly. COB was discovered as a candidate for further tracing.
+F3-S12,"Open the OBO Foundry PR, SO, PO, TO, ECO and RO entries.",Opening authoritative directory entries individually,"Expand protein, sequence, plant, relation and evidence organization coverage.","https://obofoundry.org/ontology/pr.html
+https://obofoundry.org/ontology/so.html
+https://obofoundry.org/ontology/po.html
+https://obofoundry.org/ontology/to.html
+https://obofoundry.org/ontology/eco.html
+https://obofoundry.org/ontology/ro.html",Read entry content and recorded distinct systems. Different formats and subsets do not increase the count.
+F3-S13,EDAM ontology bioinformatics official | Experimental Factor Ontology official EBI | FrameBase knowledge representation frame ontology official | site.obofoundry.org/ontology/ro Relation Ontology,Web search,"Add bioinformatics, experimental variables and frame-semantic models.","https://obofoundry.org/ontology/ro.html
+https://academic.oup.com/bioinformatics/article/29/10/1325/255660
+https://www.framebase.org/schema",EDAM uses its original paper and official description. FrameBase's schema and data pages were checked.
+F3-S14,"site.ebi.ac.uk/efo ""Experimental Factor Ontology"" | site.evidenceontology.org ECO evidence assertion ontology | site.agroportal.lirmm.fr AGRO agronomy ontology | site.si.washington.edu/projects/fma Foundational Model Anatomy",Web search,Trace official project pages; add ECO/EFO and search entry points for agriculture and anatomy.,"https://www.evidenceontology.org/
+https://github.com/EBISPOT/efo
+https://agroportal.lirmm.fr/ontologies/",AgroPortal returned a search directory rather than a specific AGRO description. AGRO's inclusion evidence remains the OBO entry already opened.
+F3-S15,site.w3.org DCAT version 3 vocabulary classes | site.w3.org ODRL Information Model ontology | SPAR ontologies Peroni Shotton official | SIOC ontology specification official,Web search → official specifications/projects,"Add content ontologies for metadata, rights policies, scholarly publishing and online communities.","https://www.w3.org/TR/vocab-dcat-3/
+https://www.w3.org/TR/odrl-model/
+https://www.w3.org/ns/odrl/2/ODRL21
+https://www.sparontologies.net/ontologies
+https://www.w3.org/submissions/sioc-spec/Overview.html",Select concrete content models. RDF/OWL languages and platforms are not counted as candidates.
+F3-S16,Semanticscience Integrated Ontology SIO official | Systems Biology Ontology SBO official | LKIF core ontology official | Industrial Data Ontology IDO official Common Core Ontologies official,Web search → original papers/projects/standards projects,"Add mid-level, legal, systems-biology and industrial ontologies.","https://pmc.ncbi.nlm.nih.gov/articles/PMC4015691/
+https://bioportal.bioontology.org/ontologies/SBO?p=summary
+https://www.estrellaproject.org/page_id-3/
+https://committee.iso.org/cms/live/live/en/sites/isoorg/contents/data/standard/08/75/87560.html?browse=ics
+https://pca-posc-caesar-association.github.io/Public_ISO23726-1/latest/
+https://spec.industrialontologies.org/portal/release/202603/core.html
+https://arxiv.org/abs/2404.17758",IDO and IOF Core each have distinct content models. ISO/FDIS status is not described as formal publication.
+F3-S17,site.obofoundry.org/ontology/chmo Chemical Methods Ontology | site.obofoundry.org/ontology/cheminf chemical information ontology | site.obofoundry.org/ontology/uo units ontology | site.obofoundry.org/ontology/pco population community ontology,Targeted directory searches → projects and source definitions,"Add chemical methods, chemical information, measurement and ecological population objects.","https://obofoundry.org/ontology/chmo
+https://semanticchemistry.github.io/semanticchemistry/
+https://bioportal.bioontology.org/ontologies/CHEMINF
+https://obofoundry.org/ontology/uo.html
+https://github.com/PopulationAndCommunityOntology/pco/blob/master/pco-base.obo
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3940615/",PCO's source definitions were checked directly. No ontology data files were downloaded.
+F3-S18,"Open SPAR ontologies/publications, the original CCO paper and the COB project page directly.",Tracing project publications and resource reuse,Expand research evidence through project publications and shared foundational ontologies.,"https://www.sparontologies.net/ontologies
+https://www.sparontologies.net/publications
+https://arxiv.org/abs/2404.17758
+https://obofoundry.org/COB/",COB was discovered through F3-S11 search results. No citation-database search was conducted.
+F3-S19,"""The Common Core Ontologies"" ""Authors"" | ""The Semanticscience Integrated Ontology"" ""Dumontier"" 2014 | ""YAMATO"" ""Mizoguchi"" ""2010"" | ""The SPAR Ontologies"" ""2018"" Peroni Shotton",Checking original-paper metadata and abstracts,"Verify paper titles, authors and years to create a separate publications table.","https://arxiv.org/abs/2404.17758
+https://link.springer.com/article/10.1186/2041-1480-5-14
+https://w3id.org/spar/article/spar-iswc2018/","YAMATO's year was not verified in this search and was not guessed in the publications table. CCO's authors follow the paper's author line, distinct from authors in the software CITATION.cff."
+F3-S20,"Open the YAMATO author's PDF, the FrameBase authors' PDF and the SPAR authors' paper HTML.",Reading original papers and tracing related resources,Read structural descriptions and existing resources mentioned in papers.,"https://www.hozo.jp/onto_library/AO-YAMATO_final.pdf
+https://www.framebase.org/files/papers/RoucesDeMeloHose2015framebase.pdf
+https://sparontologies.github.io/article/spar-iswc2018/","The first two tool requests timed out. SPAR's paper HTML was readable; the abstract, related work and module structure were the focus. Related work yielded BIBO and VIVO-ISF leads."
+F3-S21,site.ontologydesignpatterns.org DUL DOLCE Ultra Lite derived | site.cyc.com OpenCyc ontology | site.w3.org/submissions/sioc-spec Post Forum UserAccount | site.obofoundry.org/ontology/pco Population Community Ontology,Targeted checks of boundaries and version relationships,"Recheck merges within lineages, SIOC terminology-version differences and PCO object relationships.","https://smartcity.linkeddata.es/ontologies/www.ontologydesignpatterns.orgontdulDUL.owl.html
+https://rdfs.org/sioc/spec/
+https://ontobee.org/ontology/pco",DUL's official IRI mirror includes ontology comments on simplified DOLCE Lite-Plus and DnS. Searching Cyc's official website did not locate OpenCyc's historical description.
+F3-S22,Computer Science Ontology CSO official topics superTopic | ChemOnt chemical taxonomy official ClassyFire | KNOWMAK ontology official | Modern Science Ontology SRAO ontology official,Targeted searches from survey leads → official projects/original papers,Verify candidates discovered by the F1 search branch in survey 2409.04432; do not classify mechanically by name.,"https://cso.kmi.open.ac.uk/home
+https://direct.mit.edu/dint/article/2/3/379/94891/The-Computer-Science-Ontology-A-Comprehensive
+https://saidfathalla.github.io/Science-knowledge-graph-ontologies/doc/ModSci_doc/index-en.html
+https://gate.ac.uk/projects/knowmak/ontologies_knowmak.pdf",KNOW search results are distinct from KNOWMAK and were not conflated.
+F3-S23,Subject Resource Application Ontology SRAO official | KNOWMAK ontology site.gate.ac.uk OR site:gate.ac.uk/projects/knowmak/ | ClassyFire Automated Chemical Classification Comprehensive Computable Taxonomy ChemOnt 2016 ontology | Bibliographic Ontology BIBO official VIVO ISF ontology official,Targeted project checks and tracing SPAR related-work leads,"Check boundaries of subject application ontologies, chemical classification and research-activity ontologies.","https://github.com/FAIRsharing/subject-ontology
+https://gate.ac.uk/projects/knowmak/
+https://gate.ac.uk/sale/2017/sti2017/STI2017_ontologies.pdf
+https://bioregistry.io/registry/classyfire
+https://vivoweb.org/about/",The SRAO README states that all classes reuse existing vocabularies/ontologies and have an OWL representation. A separate DRAO lead was discovered but remains unconfirmed.
+F3-S24,"Open PMC3940615, PMC4015691, DUL.owl, the SIOC specification and SBO's official repository directly.",Source rechecking,Distinguish readable evidence from access restrictions.,"https://pmc.ncbi.nlm.nih.gov/articles/PMC3940615/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4015691/
+https://www.ontologydesignpatterns.org/ont/dul/DUL.owl
+https://www.w3.org/submissions/sioc-spec/Overview.html
+https://github.com/EBI-BioModels/SBO",Both direct PMC opens triggered CAPTCHAs; the tool could not read the DUL IRI. SIOC and SBO official pages opened successfully. Reading indexed abstracts is distinct from reading full papers.
+F3-S25,"site.bibliontology.com Bibliographic Ontology BIBO | ""ClassyFire: automated chemical classification"" ""PMC"" | ""Semantics in Support of Biodiversity Knowledge Discovery"" authors | ""YAMATO"" ""Mizoguchi"" ""Applied Ontology""",Tracing original papers and projects,"Obtain ChemOnt's original description, verify PCO/BCO papers and YAMATO's formal publication metadata, and continue tracing BIBO.","https://sparontologies.github.io/article/spar-iswc2018/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5096306/
+https://pubmed.ncbi.nlm.nih.gov/24595056/
+https://journals.sagepub.com/doi/abs/10.3233/AO-210257
+https://www.hozo.jp/onto_library/upperOnto.htm","The ClassyFire paper's index returned its abstract, methods and conclusion. YAMATO's older author manuscript and the formal 2022 paper have different authors; their metadata are kept distinct."
+F3-S26,"Open DCMI's BIBO specification and follow About and HTML class definitions; open VIVO About, PCO/BCO PubMed abstracts, and YAMATO project and formal paper pages.",Resource tracing → official specifications/original-paper abstracts,Complete evidence checks for scholarly ontologies and biodiversity resources.,"https://www.dublincore.org/specifications/bibo/
+https://www.dublincore.org/specifications/bibo/bibo/
+https://dcmi.github.io/bibo/
+https://vivoweb.org/about/
+https://pubmed.ncbi.nlm.nih.gov/24595056/
+https://www.hozo.jp/onto_library/upperOnto.htm
+https://journals.sagepub.com/doi/abs/10.3233/AO-210257","BIBO documentation shows Document → Article → AcademicArticle inheritance. BCO was discovered in the original PCO paper's abstract that was read, rather than added from memory."
+F3-S27,"Open the CSO paper, the KNOWMAK STI paper and the ModSci ESWC author manuscript; search ""The Computer Science Ontology"" ""Salatino"" ""2020"" authors | ""ClassyFire"" ""Yannick"" ""2016"" ""Eisner"" | ""FrameBase: Representing"" ""Rouces"" 2015",Reading original papers and checking bibliographic records,Check classification boundaries and paper authors/years.,"https://direct.mit.edu/dint/article/2/3/379/94891/The-Computer-Science-Ontology-A-Comprehensive
+https://gate.ac.uk/sale/2017/sti2017/STI2017_ontologies.pdf
+https://2023.eswc-conferences.org/wp-content/uploads/2023/05/paper_Fathalla_2023_An.pdf
+https://www.salatino.org/wp/publications/
+https://www.framebase.org/publications
+https://www.semantic-web-journal.net/content/framebase-enabling-integration-heterogeneous-knowledge","Direct CSO access returned 403 and the KNOWMAK PDF timed out; existing indexed excerpts were readable. The ModSci author manuscript's abstract and Sections 4–5 were read, confirming formal relations. FrameBase's formal bibliographic record was verified, but its full text was not recorded as read."
+F3-S28,"""DOLCE: A Descriptive Ontology for Linguistic and Cognitive Engineering"" ""2022"" authors | ""EDAM: an ontology of bioinformatics"" ""Ison"" 2013 | ""The Ontology for Biomedical Investigations"" ""2016"" ""Bandrowski""; open SIO's publisher page and the original CCO abstract page",Rechecking original-paper metadata and abstracts,Complete verifiable bibliographic metadata and reading scope in the publications table.,"https://iris.cnr.it/handle/20.500.14243/440478
+https://journals.sagepub.com/doi/10.3233/AO-210259
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3654706/
+https://edamontology.org/page_1.2.html
+https://pubmed.ncbi.nlm.nih.gov/27128319/
+https://link.springer.com/article/10.1186/2041-1480-5-14
+https://arxiv.org/abs/2404.17758",OBI's first author was verified as Anita Bandrowski. Long author lists use et al. rather than being omitted as unknown.
+F45-S01,"Wikidata knowledge base structured data official
+DBpedia knowledge graph official ontology
+YAGO 4.6 knowledge base official
+BabelNet semantic network synsets official",Public web search,Verify the original four systems and their schema/version sources.,"https://www.wikidata.org/wiki/Help%3AIntroduction
+https://www.dbpedia.org/resources/ontology/
+https://yago-knowledge.org/downloads
+https://babelnet.org/about","Started with existing seed systems and read official introductions, schemas and download descriptions. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches."
+F45-S02,"site.conceptnet.io ConceptNet relations knowledge graph
+ATOMIC commonsense knowledge graph Allen AI official 2020
+site:developers.google.com Freebase data dumps
+site:developers.google.com knowledge graph search API entities",Public web search,"Expand general-purpose and commonsense graphs, recording historical and commercial-access boundaries.","https://developers.google.com/freebase
+https://developers.google.com/knowledge-graph?bbpage=1
+https://conceptnet.io/
+https://ojs.aaai.org/index.php/AAAI/article/view/16792",The first query was actually typed as site.conceptnet.io; it still located ConceptNet's official website and repository. Google's limitations were read; APIs requiring keys were not tested. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches.
+F45-S03,"site:getty.edu TGN ULAN hierarchical structured vocabulary names
+site:oclc.org VIAF authority linked data",Public web search,Clarify relationships between entity authority files and concept-oriented thesauri.,"https://www.getty.edu/publications/vocabularies-editorial-guidelines/tgn-guidelines/3_editorial_rules/3.1/
+https://www.getty.edu/publications/vocabularies-editorial-guidelines/ulan-guidelines/3_editorial_rules/3.1/
+https://www.oclc.org/developer/api/oclc-apis/viaf.en.html",Read Getty's editorial guidelines and OCLC's official API description. Official types and this study's primary groups are recorded separately. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches.
+F45-S04,"site:geonames.org ontology
+WorldKG openstreetmap knowledge graph paper
+EventKG multilingual event centric temporal knowledge graph official",Public web searches plus opening official pages,Expand geographic and event graphs.,"https://www.geonames.org/ontology/documentation.html
+https://github.com/alishiba14/WorldKG-Knowledge-Graph
+https://eventkg.l3s.uni-hannover.de/",Also opened https://www.geonames.org/ontology/documentation.html directly and located the parentADM RDF example. WorldKG and EventKG were checked against authors' project pages. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches.
+F45-S05,"Hetionet integrative network biology official
+PrimeKG precision medicine knowledge graph official
+SPOKE knowledge graph UCSF official
+Monarch Initiative knowledge graph official",Public web search,Expand typed biomedical graphs.,"https://spoke.ucsf.edu/
+https://monarch-app.monarchinitiative.org/Neo4J/",This batch first obtained SPOKE and Monarch evidence. Hetionet/PrimeKG were verified by subsequent targeted searches. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches.
+F45-S06,"site:zitniklab.hms.harvard.edu/projects/PrimeKG knowledge
+site:github.com/gnn4dr/DRKG drug repurposing knowledge graph
+site:openbiolink.github.io OpenBioLink knowledge graph",Public web search,Verify biomedical aggregation relationships and upstream reuse.,"https://github.com/gnn4dr/DRKG
+https://zitniklab.hms.harvard.edu/projects/PrimeKG/",Read the PrimeKG team's introduction and the DRKG authors' repository. OpenBioLink was subsequently identified as a benchmark framework and not added directly to the main resource table. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches.
+F45-S07,"OpenAIRE Graph data model entities relationships official
+Open Research Knowledge Graph comparisons semantic contributions official
+ArCo Italian cultural heritage knowledge graph official
+Bio2RDF linked data official",Public web search,"Expand research, cultural and biological linked resources.","https://dati.beniculturali.it/arco/index.php?lang=en
+https://graph.openaire.eu/docs/data-model/
+https://bio2rdf.github.io/",OpenAIRE uses its official data model; ArCo uses a government project page; Bio2RDF uses its project's GitHub Pages. ORKG was supplemented by targeted searches. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches.
+F45-S08,"NELL never ending language learning knowledge base categories relations CMU
+ASER eventuality knowledge graph official GitHub
+CSKG commonsense knowledge graph github official
+KBpedia knowledge graph official",Public web searches plus tracing reuse dependencies,"Expand automatically extracted, conceptual and aggregated graphs and trace their dependencies.","https://rtw.ml.cmu.edu/rtw/resources
+https://github.com/HKUST-KnowComp/ASER/blob/master/README.md
+https://github.com/usc-isi-i2/cskg
+https://www.kbpedia.org/docs/how-to-use-the-knowledge-graph/","The CSKG repository lists ATOMIC, ConceptNet, FrameNet, Roget and Visual Genome. Visual Genome remains an upstream lead without separate verification. ASER identifies Probase; KBpedia identifies seven core sources. Roget and Probase were subsequently verified. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches."
+F45-S09,"""KnowWhereGraph"" ""ontology"" ""environmental""
+""Hetionet"" ""11"" ""24"" official
+""Open Research Knowledge Graph"" ""structured"" site:orkg.org
+""CONA"" ""IA"" ""hierarchical"" site:getty.edu",Public web searches plus opening official pages,"Add evidence for environmental graphs, research-content graphs and Getty entity resources.","https://knowwheregraph.org/about/
+https://www.getty.edu/research/tools/vocabularies/000_vocab_updates_itwg2020.pdf
+https://www.getty.edu/publications/vocabularies-editorial-guidelines/ia-guidelines/1_about_ia/1.1/
+https://orkg.org/about
+https://github.com/hetio/hetionet/blob/main/README.md","Opened the KnowWhereGraph homepage and clicked About, then searched official sources/original papers. ORKG's About text was read from search results; access to its root domain had been restricted by robots rules. Access to logged-in content is not claimed. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches."
+F45-S10,"site:openhow.net HowNet sememes
+site:wordnet.princeton.edu WordNet semantic relations
+site:framenet.icsi.berkeley.edu FrameNet frames relations
+site:verbs.colorado.edu VerbNet classes hierarchy
+FrameNet frame relations official Berkeley
+OpenHowNet knowledge base sememes GitHub
+VerbAtlas semantic frames official
+PropBank frames semantic roles official",Public web searches in two batches,"Verify major resources for word senses, sememes, frames and verb classes.","https://wordnet.princeton.edu/
+https://github.com/thunlp/OpenHowNet/blob/master/README.md?plain=1
+https://www.globalframenet.org/
+https://verbs.colorado.edu/verbnet/
+https://github.com/propbank/propbank-frames","Initial domain-restricted HowNet/FrameNet searches were insufficient, so project-name searches followed. OpenHowNet and the relocated FrameNet/Global FrameNet descriptions were read; the VerbAtlas paper was added later. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches."
+F45-S11,"UBY lexical semantic resource official Darmstadt
+DBnary lexical resource Wiktionary official
+JeuxDeMots lexical semantic network official
+Pattern Dictionary English Verbs PDEV semantic types official",Public web search,Expand lexical integration resources and an independent French semantic network.,"https://tudatalib.ulb.tu-darmstadt.de/items/95ef6157-40e1-409a-85cc-2102406bbf3a
+https://www.jeuxdemots.org/jdm-about-detail-relations.php
+https://github.com/serasset/dbnary/blob/master/README.md?plain=1","Checked UBY's institutional repository, DBnary's authors' repository and JeuxDeMots relation specifications. PDEV's official website was searchable; structural evidence was later supplemented by the original paper. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches."
+F45-S12,"""PDEV"" ""semantic types"" site:lexicalcomputing.com
+""Pattern Dictionary of English Verbs"" ""semantic types"" site:aclanthology.org
+""Wiktionary"" ""Semantic relations"" site:en.wiktionary.org/wiki/Wiktionary:
+""WordNet"" ""Open English Wordnet"" site:en-word.net",Public web search,Add structural evidence for lexical resources and evidence for merging versions of the same system.,"https://en.wiktionary.org/wiki/Wiktionary%3ASemantic_relations
+https://aclanthology.org/W13-38.pdf","Read excerpts of PDEV research, Wiktionary's semantic-relation guidelines, and Open English Wordnet's description of its derivation from Princeton WordNet. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches."
+F45-S13,"""VerbAtlas: a Novel Large-Scale Verbal Semantic Resource""
+""OpenBioLink"" ""typed"" knowledge graph
+""Semantic Web"" ""Pleiades"" gazetteer official
+""LinkedGeoData"" ""ontology"" site:linkedgeodata.org",Public web search,Additional checks of original papers and geographic graphs,"https://aclanthology.org/D19-1058/
+https://linkedgeodata.org/docs/rdf-mapping.html","Verified the VerbAtlas abstract and author metadata, and LinkedGeoData's official mapping description. OpenBioLink is retained only as a benchmark-framework boundary case. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches."
+F45-S14,"site:microsoft.com/research ""Probase"" ""taxonomy""
+site:ucrel.lancs.ac.uk USAS semantic tagset
+Roget thesaurus hierarchical classification semantic resource original paper
+NomBank frames lexicon NYU",Public web searches plus tracing reuse chains,"Trace conceptual-graph boundaries, lexical classifications and noun-role structures.","https://nlp.cs.nyu.edu/meyers/NomBank.html
+https://arxiv.org/abs/1204.0258
+https://ucrel.lancs.ac.uk/usas/
+https://www.microsoft.com/en-us/research/project/probase/",Probase was traced through ASER's dependency; Roget through CSKG's upstream sources. USAS is included for its semantic tag categories rather than its software. Only NomBank's frame lexicon is included. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches.
+F45-S15,"""SyntagNet"" ""lexical-semantic"" site:aclanthology.org
+""Pleiades"" ""places"" ""connections"" site:pleiades.stoa.org
+""Roget"" ""Thesaurus"" site:gutenberg.org/ebooks
+""Semantic Scholar"" ""Academic Graph"" site:semanticscholar.org/product",Public web search,"Verify historical geographic relationships, digital dictionary editions and bibliographic-graph boundaries.",https://pleiades.stoa.org/help/conceptual-overview,"Pleiades uses the latest Conceptual Overview in preference to older connection descriptions. Semantic Scholar and S2ORC are placed in the boundary table. A SyntagNet paper was found, but inclusion was not pursued this round. Logs group independent searches; they are neither total search-result counts nor exhaustive citation-database searches."
+F45-S16,Open original bibliographic pages: Roget on arXiv; UBY in ACL; ATOMIC in AAAI; the authors' hosted Probase PDF.,Targeted verification of original-paper metadata/abstracts,Create a separate publications table and distinguish original publication years from preprint-upload years.,"https://arxiv.org/abs/1204.0258
+https://aclanthology.org/E12-1059/
+https://ojs.aaai.org/index.php/AAAI/article/view/16792
+https://www.microsoft.com/en-us/research/wp-content/uploads/2012/05/paper.pdf","The Roget paper was originally published in 2001 and uploaded to arXiv in 2012. The ATOMIC 2020 resource paper was published in 2021. UBY's institutional-repository abstract and ACL bibliographic page were read, without claiming a full-text reading."

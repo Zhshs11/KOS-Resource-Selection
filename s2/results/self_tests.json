@@ -1,0 +1,362 @@
+[
+  {
+    "test": "confirmed panel, 80 demands and 320 evidence rows",
+    "passed": true
+  },
+  {
+    "test": "each candidate occupies one rank in each draw",
+    "passed": true
+  },
+  {
+    "test": "each rank has total credit one",
+    "passed": true
+  },
+  {
+    "test": "strict order",
+    "passed": true
+  },
+  {
+    "test": "three-way tie fractional all ranks",
+    "passed": true
+  },
+  {
+    "test": "lower-rank tie remains below sole winner",
+    "passed": true
+  },
+  {
+    "test": "first-only matches full-rank credit",
+    "passed": true
+  },
+  {
+    "test": "candidate permutation invariance",
+    "passed": true
+  },
+  {
+    "test": "rounding produces transitive tie groups",
+    "passed": true
+  },
+  {
+    "test": "fixed denominator gives 1 and 1/4",
+    "passed": true
+  },
+  {
+    "test": "check reweighting renormalizes within capability",
+    "passed": true
+  },
+  {
+    "test": "square value curve",
+    "passed": true
+  },
+  {
+    "test": "sqrt value curve",
+    "passed": true
+  },
+  {
+    "test": "unknown is enumerated, never imputed",
+    "passed": true
+  },
+  {
+    "test": "enumeration leaves original audit unchanged",
+    "passed": true
+  },
+  {
+    "test": "strict dominance",
+    "passed": true
+  },
+  {
+    "test": "expected rank",
+    "passed": true
+  },
+  {
+    "test": "central weights sum to one",
+    "passed": true
+  },
+  {
+    "test": "undefined central weights stay missing",
+    "passed": true
+  },
+  {
+    "test": "same seed is reproducible",
+    "passed": true
+  },
+  {
+    "test": "identical profiles cannot be separated",
+    "passed": true
+  },
+  {
+    "test": "ties have zero empirical variation",
+    "passed": true
+  },
+  {
+    "test": "one million draws maximum SE is .05 pp",
+    "passed": true
+  },
+  {
+    "test": "fixed equal weights exact tie",
+    "passed": true
+  },
+  {
+    "test": "fixed calculation has no Monte Carlo allowance",
+    "passed": true
+  },
+  {
+    "test": "changing completion labels adds no probability",
+    "passed": true
+  },
+  {
+    "test": "fractional documentary observations rejected",
+    "passed": true
+  },
+  {
+    "test": "missing observation rejected",
+    "passed": true
+  },
+  {
+    "test": "preferred-name override rejected",
+    "passed": true
+  },
+  {
+    "test": "dangling evidence reference rejected",
+    "passed": true
+  },
+  {
+    "test": "analytic three-alternative rank-share regions",
+    "passed": true
+  },
+  {
+    "test": "same profiles tie at equal weights",
+    "passed": true
+  },
+  {
+    "test": "analytic two-completion rank-share regions",
+    "passed": true
+  },
+  {
+    "test": "guard does not break exact exchangeable ties",
+    "passed": true
+  },
+  {
+    "test": "omitted criterion is genuinely zero-weighted",
+    "passed": true
+  },
+  {
+    "test": "reject incompatible protocol denominator",
+    "passed": true
+  },
+  {
+    "test": "reject incompatible protocol allow_legacy_scores",
+    "passed": true
+  },
+  {
+    "test": "reject incompatible protocol status_values",
+    "passed": true
+  },
+  {
+    "test": "reject inconsistent request family",
+    "passed": true
+  },
+  {
+    "test": "reject inconsistent request criterion",
+    "passed": true
+  },
+  {
+    "test": "reject inconsistent request obligation",
+    "passed": true
+  },
+  {
+    "test": "reject inconsistent observation profile",
+    "passed": true
+  },
+  {
+    "test": "reject inconsistent observation source_ids",
+    "passed": true
+  },
+  {
+    "test": "reject inconsistent observation independent_review",
+    "passed": true
+  },
+  {
+    "test": "reject missing source location",
+    "passed": true
+  },
+  {
+    "test": "reject false aggregate independent-review status",
+    "passed": true
+  },
+  {
+    "test": "reject invalid draw count True",
+    "passed": true
+  },
+  {
+    "test": "reject invalid draw count 10.7",
+    "passed": true
+  },
+  {
+    "test": "reject invalid draw count 0",
+    "passed": true
+  },
+  {
+    "test": "reject invalid draw count -1",
+    "passed": true
+  },
+  {
+    "test": "reject invalid Dirichlet alpha nan",
+    "passed": true
+  },
+  {
+    "test": "reject invalid Dirichlet alpha inf",
+    "passed": true
+  },
+  {
+    "test": "reject invalid Dirichlet alpha 0.0",
+    "passed": true
+  },
+  {
+    "test": "reject invalid Dirichlet alpha -1.0",
+    "passed": true
+  },
+  {
+    "test": "reject invalid multiplier [nan, 1, 1, 1]",
+    "passed": true
+  },
+  {
+    "test": "reject invalid multiplier [inf, 1, 1, 1]",
+    "passed": true
+  },
+  {
+    "test": "reject invalid multiplier [0, 0, 0, 0]",
+    "passed": true
+  },
+  {
+    "test": "reject invalid multiplier [-1, 1, 1, 1]",
+    "passed": true
+  },
+  {
+    "test": "reject invalid fixed weights [nan, 0, 0, 1]",
+    "passed": true
+  },
+  {
+    "test": "reject invalid fixed weights [inf, 0, 0, 0]",
+    "passed": true
+  },
+  {
+    "test": "reject invalid fixed weights [0.25, 0.25, 0.25, 0.250001]",
+    "passed": true
+  },
+  {
+    "test": "reject invalid fixed weights [-1, 1, 1, 0]",
+    "passed": true
+  },
+  {
+    "test": "reject invalid request weight nan",
+    "passed": true
+  },
+  {
+    "test": "reject invalid request weight inf",
+    "passed": true
+  },
+  {
+    "test": "reject invalid request weight -1.0",
+    "passed": true
+  },
+  {
+    "test": "reject unresolved utility input",
+    "passed": true
+  },
+  {
+    "test": "reject nonbinary utility input",
+    "passed": true
+  },
+  {
+    "test": "reject infinite completion",
+    "passed": true
+  },
+  {
+    "test": "reject nonfinite score input",
+    "passed": true
+  },
+  {
+    "test": "reject empty score input",
+    "passed": true
+  },
+  {
+    "test": "reject malformed score shape",
+    "passed": true
+  },
+  {
+    "test": "reject invalid first-rank totals",
+    "passed": true
+  },
+  {
+    "test": "reject missing first-rank shares",
+    "passed": true
+  },
+  {
+    "test": "single-candidate comparison is handled",
+    "passed": true
+  },
+  {
+    "test": "all-rank credits permutation independent in tied input",
+    "passed": true
+  },
+  {
+    "test": "large finite request weights normalize safely",
+    "passed": true
+  },
+  {
+    "test": "independent sorting agrees with pairwise rank implementation",
+    "passed": true
+  },
+  {
+    "test": "audit row order does not change scored records",
+    "passed": true
+  },
+  {
+    "test": "dynamic error guard covers all planned stochastic means",
+    "passed": true
+  },
+  {
+    "test": "expanding the simultaneous family makes the allowance no smaller",
+    "passed": true
+  },
+  {
+    "test": "additional uncertainty profile matches its simplex region",
+    "passed": true
+  },
+  {
+    "test": "duplicate JSON keys rejected",
+    "passed": true
+  },
+  {
+    "test": "nonfinite JSON constants rejected",
+    "passed": true
+  },
+  {
+    "test": "UTF-8 BOM input accepted",
+    "passed": true
+  },
+  {
+    "test": "Boolean protocol outcomes rejected",
+    "passed": true
+  },
+  {
+    "test": "Boolean Dirichlet concentration rejected",
+    "passed": true
+  },
+  {
+    "test": "non-Boolean full-rank switch rejected",
+    "passed": true
+  },
+  {
+    "test": "non-Boolean deterministic switch rejected",
+    "passed": true
+  },
+  {
+    "test": "unsafe extreme score rounding rejected",
+    "passed": true
+  },
+  {
+    "test": "ambiguous utility-array container rejected",
+    "passed": true
+  }
+]

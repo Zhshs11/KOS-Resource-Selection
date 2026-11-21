@@ -1,0 +1,2 @@
+/s2/results/** -text
+/s2/select_representatives.py text eol=lf
