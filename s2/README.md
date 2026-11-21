@@ -1,6 +1,6 @@
-# Selecting one representative per KOS family
+# Supplementary S2 · Within-family assessment
 
-The 20 resources admitted in Supplementary S1 were assessed against 16 requests within each family. The assessment dated 13 October 2026 records one assessor’s judgments about named editions and source profiles. The sample contains four unresolved judgments. The readers’ guide gives the five request sets, the evidence behind each selection and the cases where the selection changes. [Supplementary S2](Supplementary_S2_Family_Representatives.docx)
+We compared the 20 candidate KOSs retained in Supplementary S1 within their respective families. Each comparison used 16 requests shared by the candidates in that family. One assessor evaluated the evidence for each specified source profile and recorded four unresolved judgments. The supplement presents the criteria, the evidence supporting each family representative and the results of the sensitivity analyses. [Supplementary S2](Supplementary_S2_Family_Representatives.docx)
 
 ## Reproduce the analysis
 
@@ -13,7 +13,7 @@ python select_representatives.py
 
 On a local machine the script writes to `family_leader_selection_output/` in the working directory. Set `FAMILY_SELECTION_OUTPUT` to choose another destination. The release run used one OpenBLAS/OpenMP thread, PCG64 with base seed 20261013, and batches of 20,000. The run manifest records the draw counts, scenario names, software versions and input hashes. The self-tests cover panel integrity, evidence coding, tie handling, rankings and the selection rule. [Run manifest](results/manifest.json) · [90 self-tests](results/self_tests.json)
 
-## Trace a candidate
+## Candidate-level evidence and results
 
 | Question | Released file |
 | --- | --- |
@@ -28,7 +28,7 @@ On a local machine the script writes to `family_leader_selection_output/` in the
 
 Join records by `candidate_id` and `test_id`. The evidence codes are 1 (supported), 0 (absent within the stated profile) and blank (unresolved). In the capability file the four symbols in each `C*_bits` column correspond to requests a–d, with `?` marking an unresolved judgment. C1 covers knowledge representation, C2 semantic map construction and anchoring, C3 semantic path finding, and C4 knowledge retrieval and reasoning support.
 
-Each baseline capability is its supported fraction out of four equally weighted requests. The simulation samples one million weight vectors per family from Dirichlet(1,1,1,1), scores all candidates under each vector and divides tied positions equally. Every possible 0/1 resolution of that family’s unknowns is evaluated using the same vectors. First-rank shares are reported separately for these completions. The selected candidate’s smallest first-rank share must exceed every rival’s largest share by more than twice the simultaneous Monte Carlo allowance. The guard covers sampling error in those numerical shares. Source judgments and choices of weights are examined separately in the sensitivity files.
+Each baseline capability is its supported fraction out of four equally weighted requests. The simulation samples one million weight vectors per family from Dirichlet(1,1,1,1), scores all candidates under each vector and divides tied positions equally. Every possible 0/1 resolution of that family’s unknowns is evaluated using the same vectors. First-rank shares are reported separately for these completions. A family representative’s smallest first-rank share must exceed every rival’s largest share by more than twice the simultaneous Monte Carlo allowance. The guard covers sampling error in those numerical shares. Source judgments and choices of weights are examined separately in the sensitivity files.
 
 In the rank table, `rank_1` through `rank_6` give the fraction of draws at each applicable rank. A completion label such as `2:3c=0` means the third candidate in the family’s panel order took value 0 for C3c. Multiple assignments in a label apply together. `central_w1` through `central_w4` are the mean criterion weights over draws in which the candidate received first-rank credit, weighted by that credit. These fields are blank when the credit is zero. In the sensitivity table, the vectors in `min_first` and `max_first` follow the same panel order. A blank `selected` means the comparison did not separate a representative.
 

@@ -1,8 +1,8 @@
-# Supplementary S1 data
+# Supplementary S1 · Resource screening and comparative selection
 
-These records accompany [Supplementary S1](Supplementary_S1_Resource_Screening.docx). They trace how 224 knowledge organization systems (KOSs) entered the catalog, why 77 met the eligibility criteria, and how 20 became the comparative panel. For an individual resource, look up the same `resource_id` in [discovery.csv](discovery.csv), [screening_evidence.csv](screening_evidence.csv) and [screening_sources.csv](screening_sources.csv). The [screening flow](../screening.csv) and [panel decisions](../panel_selection.csv) are in the parent directory.
+These records accompany [Supplementary S1](Supplementary_S1_Resource_Screening.docx). They document the identification of 224 knowledge organization systems (KOSs), the eligibility decisions for all 224 resources, and the selection of 20 candidates from the 77 that met the eligibility criteria. For an individual resource, look up the same `resource_id` in [discovery.csv](discovery.csv), [screening_evidence.csv](screening_evidence.csv) and [screening_sources.csv](screening_sources.csv). The [screening flow](../screening.csv) and [panel decisions](../panel_selection.csv) are in the parent directory.
 
-## From search leads to 224 systems
+## Resource identification and family assignment
 
 The study adapted CLeAR from Campos et al. (2020). Cycle I specified the objects, relations, domains and dependencies of interest. The five families below are the study's own grouping. Cycle II combined named-resource and maintainer searches with resource-type terms (such as classification, thesaurus and ontology) and subject terms. Survey tables, public directories and documented reuse or import relationships supplied further leads. The catalog distinguishes citations and mappings from derivation. It records 10 previously prepared seeds, four additional outline seeds (ACM CCS, CLC, Cyc/OpenCyc and WordNet) and 210 additions. [CLeAR paper](https://doi.org/10.1016/j.envsoft.2020.104813)
 
@@ -19,7 +19,7 @@ The catalog required an identifiable system and a source describing its objects 
 
 Primary family follows the objects organized. For example, a SKOS serialization alone cannot determine family assignment. YSO belongs to F2 and carries a secondary ontology attribute. Related components may also be combined across releases. The catalog keeps these qualifications in each resource's discovery record.
 
-## Eligibility and panel decisions
+## Eligibility and candidate-level decisions
 
 1. **Scope.** A system qualified when it covered several domains or supplied a general foundation reusable across disciplines. The screening audit reconsidered the preliminary labels. F2-008 and F2-018 passed after an initial domain-specific label. F3-015, F3-030, F3-053 and F3-054 failed after an initial cross-domain label. The stage removed 125 systems.
 2. **English semantic content.** Usable labels, definitions, class captions, senses or equivalent English content had to occur in the resource itself. Among the 99 systems that reached this stage, one failed and ten had insufficient evidence.
